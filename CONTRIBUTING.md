@@ -12,7 +12,7 @@ Please open an issue with:
 
 ## Development setup
 
-1. Install a JDK (17 or newer; the project is built with JDK 21) and the Android SDK with platform `android-37.2`.
+1. Install a JDK (17 or newer; the project is built with JDK 21) and the Android SDK with platform `android-37.1`.
 2. Point Gradle at them:
 
    ```bash

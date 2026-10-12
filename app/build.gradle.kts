@@ -5,13 +5,14 @@ plugins {
 }
 android {
     namespace = "pt.tiago.bubblenight"
-    compileSdk { version = release(37) { minorApiLevel = 2 } }
+    // API 37.1: the F-Droid SDK mirror cannot install the 37.2 platform package.
+    compileSdk { version = release(37) { minorApiLevel = 1 } }
     defaultConfig {
         applicationId = "pt.tiago.bubblenight"
         minSdk = 26
         targetSdk = 36
-        versionCode = 26
-        versionName = "0.14.2"
+        versionCode = 27
+        versionName = "0.14.3"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17

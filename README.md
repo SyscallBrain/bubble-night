@@ -112,7 +112,7 @@ To check it: `apksigner verify --print-certs bubble-night-<version>.apk`
 | Tool | Version |
 |---|---|
 | JDK | 17 or newer (the project is built with JDK 21) |
-| Android SDK | Platform `android-37.2`, build tools 37 |
+| Android SDK | Platform `android-37.1`, build tools 37 |
 | Gradle | Wrapper included (9.8.0) |
 | Python 3 | Only for the optional authoring scripts in `tools/` |
 
