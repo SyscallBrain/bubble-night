@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": 1,
+  "id": "level-0007",
+  "ordinal": 7,
+  "orbitId": "orbit-01",
+  "titlePt": "Rota pela direita",
+  "familyId": "side-pockets",
+  "learningTags": [
+    "right-wall-bank"
+  ],
+  "revision": 2,
+  "authorNotes": "Authored candidate; difficulty and teaching intent await replay and human review.",
+  "variants": {
+    "easy": {
+      "seedHex": "fde7fae8baaf34cd",
+      "board": [
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 8,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 11,
+      "threeStarMaxShots": 6,
+      "twoStarMaxShots": 8,
+      "expectedMetrics": {
+        "familyId": "side-pockets",
+        "minBounces": 1
+      }
+    },
+    "medium": {
+      "seedHex": "a51dd51bfccc149c",
+      "board": [
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 8,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 7,
+      "threeStarMaxShots": 4,
+      "twoStarMaxShots": 5,
+      "expectedMetrics": {
+        "familyId": "side-pockets",
+        "minBounces": 1
+      }
+    },
+    "hard": {
+      "seedHex": "bc708a30c08b82be",
+      "board": [
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 8,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 5,
+      "threeStarMaxShots": 3,
+      "twoStarMaxShots": 4,
+      "expectedMetrics": {
+        "familyId": "side-pockets",
+        "minBounces": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": 1,
+  "id": "level-0003",
+  "ordinal": 3,
+  "orbitId": "orbit-01",
+  "titlePt": "Duas cores",
+  "familyId": "staircase",
+  "learningTags": [
+    "color-choice"
+  ],
+  "revision": 2,
+  "authorNotes": "Authored candidate; difficulty and teaching intent await replay and human review.",
+  "variants": {
+    "easy": {
+      "seedHex": "8203bcf863e27833",
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 9,
+      "threeStarMaxShots": 4,
+      "twoStarMaxShots": 6,
+      "expectedMetrics": {
+        "familyId": "staircase",
+        "minBounces": 0
+      }
+    },
+    "medium": {
+      "seedHex": "9f7bcac0da520c3e",
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 7,
+      "threeStarMaxShots": 3,
+      "twoStarMaxShots": 4,
+      "expectedMetrics": {
+        "familyId": "staircase",
+        "minBounces": 0
+      }
+    },
+    "hard": {
+      "seedHex": "58fbb981e1be1adf",
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 5,
+      "threeStarMaxShots": 2,
+      "twoStarMaxShots": 3,
+      "expectedMetrics": {
+        "familyId": "staircase",
+        "minBounces": 0
+      }
+    }
+  }
+}

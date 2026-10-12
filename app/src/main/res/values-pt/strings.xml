@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Fechar</string>
+    <string name="cd_back">Voltar</string>
+    <string name="label_level">Nível %d</string>
+    <string name="label_wave">Onda %d</string>
+    <string name="label_zen_mode">Modo Zen</string>
+    <string name="label_daily">Diário · %s</string>
+    <string name="label_daily_challenge_date">Desafio diário · %s</string>
+    <string name="points_value">%s pontos</string>
+    <string name="points_unit">pontos</string>
+    <string name="shot_unit_one">jogada</string>
+    <string name="shot_unit_other">jogadas</string>
+    <string name="level_title_generic">Órbita %1$d · nível %2$d</string>
+    <string name="orbit_name_fallback">Constelações</string>
+    <string name="two_items">%1$s e %2$s</string>
+    <string name="difficulty_easy">Fácil</string>
+    <string name="difficulty_medium">Médio</string>
+    <string name="difficulty_hard">Difícil</string>
+    <string name="score_factor_easy">×1</string>
+    <string name="score_factor_medium">×1,5</string>
+    <string name="score_factor_hard">×2</string>
+    <string name="aim_guide_easy">Trajetória completa</string>
+    <string name="aim_guide_medium">Até ao primeiro ressalto</string>
+    <string name="aim_guide_hard">Mira curta</string>
+    <string name="difficulty_summary_easy">Mais jogadas, menos cores e mira completa.</string>
+    <string name="difficulty_summary_medium">Jogadas contadas e mira até ao primeiro ressalto.</string>
+    <string name="difficulty_summary_hard">Quase sem margem, mais cores e só o início da mira.</string>
+    <string name="difficulty_summary_with_points">%1$s Pontos %2$s.</string>
+    <string name="cd_difficulty">Dificuldade %s</string>
+    <string name="cd_difficulty_selected">Dificuldade %s, selecionada</string>
+    <string name="loading_constellations">A preparar as constelações…</string>
+    <string name="loading_resuming_game">A retomar a partida…</string>
+    <string name="loading_level">A preparar o nível…</string>
+    <string name="loading_opening_constellation">A abrir a constelação…</string>
+    <string name="loading_resuming_daily">A retomar o desafio…</string>
+    <string name="loading_daily">A preparar o desafio diário…</string>
+    <string name="loading_first_wave">A preparar a primeira onda…</string>
+    <string name="loading_next_wave">A preparar a próxima onda…</string>
+    <string name="loading_saving_move">A guardar a jogada…</string>
+    <string name="loading_checking_backup">A verificar a cópia…</string>
+    <string name="loading_restoring">A restaurar…</string>
+    <string name="error_recovered_backup">O progresso foi recuperado da cópia anterior. A última jogada pode ter sido perdida.</string>
+    <string name="error_save_pending">A jogada continua por guardar. Toca em Tentar guardar antes de avançar.</string>
+    <string name="error_action_failed">Não foi possível concluir: %s</string>
+    <string name="error_save_generic">erro de gravação</string>
+    <string name="error_save_failed">Não foi possível guardar a jogada. Ela fica pendente; toca em Tentar guardar para voltar a tentar.</string>
+    <string name="notice_level_locked">Conclui o nível anterior para abrir esta constelação.</string>
+    <string name="notice_move_saved">Jogada guardada. Podes continuar.</string>
+    <string name="notice_test_mode_on">Modo de testes: todos os níveis abertos.</string>
+    <string name="notice_test_mode_off">Modo de testes desligado.</string>
+    <string name="aim_no_room">Sem espaço nessa direção. Ajusta a mira.</string>
+    <string name="target_description">linha %1$d, posição %2$d</string>
+    <string name="confirm_levels_updated_title">Níveis atualizados</string>
+    <string name="confirm_levels_updated_message">Os níveis desta corrida mudaram. Começa uma nova corrida; o recorde fica guardado.</string>
+    <string name="action_new_run">Nova corrida</string>
+    <string name="confirm_level_updated_title">Nível atualizado</string>
+    <string name="confirm_level_updated_message">Este nível mudou. Reiniciar mantém todas as estrelas já ganhas.</string>
+    <string name="action_reset_level">Reiniciar</string>
+    <string name="confirm_start_level_title">Começar este nível?</string>
+    <string name="confirm_start_level_message">A partida de campanha em curso será substituída. As estrelas conquistadas ficam guardadas.</string>
+    <string name="action_start">Começar</string>
+    <string name="confirm_new_free_title">Nova partida livre?</string>
+    <string name="confirm_replace_free_message">A sessão de jogo livre guardada será substituída. O recorde fica guardado.</string>
+    <string name="action_new_game">Nova partida</string>
+    <string name="confirm_start_board_title">Começar este tabuleiro?</string>
+    <string name="confirm_start_daily_title">Começar o desafio?</string>
+    <string name="confirm_start_daily_message">A partida diária em curso será substituída. Os resultados anteriores ficam guardados.</string>
+    <string name="confirm_restart_title">Recomeçar?</string>
+    <string name="confirm_restart_run_message">Vais começar uma nova corrida.</string>
+    <string name="confirm_restart_level_message">Vais voltar ao início deste nível.</string>
+    <string name="action_restart">Recomeçar</string>
+    <string name="confirm_restore_title">Restaurar progresso?</string>
+    <string name="action_restore">Restaurar</string>
+    <string name="objective_clear_all">Limpa todas as bolhas</string>
+    <string name="objective_rescue_stars">Liberta as estrelas</string>
+    <string name="objective_clear_set">Elimina %s</string>
+    <string name="tip_rock_title">Pedra</string>
+    <string name="tip_rock_text">Não rebenta com nenhuma cor. Cai quando deixa de estar presa ao teto.</string>
+    <string name="tip_star_title">Estrela</string>
+    <string name="tip_star_text">Liberta-a fazendo-a cair: rebenta as bolhas que a seguram ao teto. Resgata todas para vencer.</string>
+    <string name="tip_color_set_title">Cores alvo</string>
+    <string name="tip_color_set_text">Só tens de eliminar %s. As outras cores podem ficar no tabuleiro.</string>
+    <string name="instruction_aim_precise">Arrasta para mirar e toca em Disparar quando estiveres pronto. A bolha fica presa no primeiro contacto.</string>
+    <string name="instruction_aim_drag">Arrasta para mirar e levanta o dedo para disparar. Para cancelar, arrasta para fora do tabuleiro antes de levantar.</string>
+    <string name="instruction_match">Liga três ou mais bolhas da mesma cor para as remover. Trocar bolhas é grátis e não gasta jogadas.</string>
+    <string name="instruction_drop">Bolhas que deixam de estar ligadas ao teto caem. Procura o disparo que solta um grupo inteiro.</string>
+    <string name="score_popped">Bolhas rebentadas</string>
+    <string name="score_dropped">Bolhas que caíram</string>
+    <string name="score_rescued">Estrelas resgatadas</string>
+    <string name="score_streak">Sequências</string>
+    <string name="score_unused">Jogadas por usar</string>
+    <string name="result_won_title">Constelação concluída</string>
+    <string name="result_zen_title">Uma nova trajetória</string>
+    <string name="result_lost_title">Tenta outra trajetória</string>
+    <string name="result_daily_won">Desafio diário concluído. Podes repetir para melhorar o resultado.</string>
+    <string name="result_wave_won">Onda %d concluída</string>
+    <string name="result_campaign_finished">Concluíste todas as constelações disponíveis.</string>
+    <string name="result_orbit_done">Órbita %s concluída!</string>
+    <string name="result_won">Cada disparo iluminou o caminho.</string>
+    <string name="result_no_shots">Sem jogadas. Experimenta outra sequência.</string>
+    <string name="result_no_combinations">Sem combinações disponíveis.</string>
+    <string name="result_overflow">As bolhas chegaram ao limite.</string>
+    <string name="result_orbit_summary">%1$d / %2$d estrelas. Volta aos níveis para iluminar as que faltam.</string>
+    <string name="result_shots_used">%1$d de %2$d jogadas usadas</string>
+    <string name="result_difficulty_factor">Dificuldade %1$s: pontos %2$s</string>
+    <string name="game_over">Fim de jogo</string>
+    <string name="action_try_again">Tentar novamente</string>
+    <string name="action_next_wave">Próxima onda</string>
+    <string name="action_next_level">Próximo nível</string>
+    <string name="action_map">Mapa</string>
+    <string name="action_replay_level">Repetir nível</string>
+    <string name="action_choose_challenge">Escolher desafio</string>
+    <string name="action_orbit_map">Mapa da órbita</string>
+    <string name="action_share_result">Partilhar resultado</string>
+    <string name="action_back_to_start">Voltar ao início</string>
+    <string name="action_exit_to_start">Sair para o início</string>
+    <string name="action_other_board">Outro tabuleiro</string>
+    <string name="action_continue">Continuar</string>
+    <string name="cd_stars_of_three">%d de 3 estrelas</string>
+    <string name="run_total">Total da corrida</string>
+    <string name="score_label">Pontuação</string>
+    <string name="new_record">Novo recorde</string>
+    <string name="record">Recorde</string>
+    <string name="best">Melhor</string>
+    <string name="this_wave">Esta onda</string>
+    <string name="achievement_first_win_title">Primeira constelação</string>
+    <string name="achievement_first_win_text">Conclui o primeiro nível.</string>
+    <string name="achievement_first_ricochet_title">Ricochete</string>
+    <string name="achievement_first_ricochet_text">Remove um grupo com uma bolha que ressaltou na parede.</string>
+    <string name="achievement_drop_10_title">Chuva de bolhas</string>
+    <string name="achievement_drop_10_text">Faz cair 10 bolhas num só disparo.</string>
+    <string name="achievement_first_orbit_title">Órbita completa</string>
+    <string name="achievement_first_orbit_text">Conclui os 50 níveis de uma órbita.</string>
+    <string name="achievement_levels_100_title">Cem constelações</string>
+    <string name="achievement_levels_100_text">Conclui 100 níveis numa dificuldade.</string>
+    <string name="cd_achievement_unlocked">%1$s, conquistada. %2$s</string>
+    <string name="cd_achievement_locked">%1$s, por conquistar. %2$s</string>
+    <string name="setting_sound">Sons</string>
+    <string name="setting_vibration">Vibração</string>
+    <string name="setting_symbols">Símbolos nas bolhas</string>
+    <string name="setting_precise_aim">Controlo preciso</string>
+    <string name="setting_full_aim_guide">Mira completa em todas as dificuldades</string>
+    <string name="setting_left_handed">Próxima bolha à esquerda</string>
+    <string name="setting_reduced_motion">Reduzir movimento</string>
+    <string name="settings_local_data">Dados locais</string>
+    <string name="settings_export">Exportar progresso</string>
+    <string name="settings_export_sub">Guardar uma cópia local</string>
+    <string name="settings_import">Importar progresso</string>
+    <string name="settings_import_sub">Restaurar uma cópia</string>
+    <string name="settings_diagnostics">Exportar diagnóstico</string>
+    <string name="settings_diagnostics_sub">Guardar o último erro registado</string>
+    <string name="settings_copies_hint">As cópias são escolhidas no dispositivo.</string>
+    <string name="settings_version">Versão %s</string>
+    <string name="settings_version_unlocked">Versão %s · todos os níveis abertos</string>
+    <string name="home_tagline">Uma constelação de desafios</string>
+    <string name="home_campaign">CAMPANHA</string>
+    <string name="cd_open_orbit_map">Abrir mapa da órbita %s</string>
+    <string name="progress_completed_of">%1$d / %2$d concluídos</string>
+    <string name="progress_completed">%d concluídos</string>
+    <string name="progress_first_run">A tua aventura começa aqui</string>
+    <string name="home_start_adventure">Começar aventura</string>
+    <string name="home_resume_campaign">Retomar campanha</string>
+    <string name="home_continue_campaign">Continuar campanha</string>
+    <string name="home_first_level_hint">Primeiro nível · sem limite de tempo</string>
+    <string name="home_saved_game">Partida guardada · %s</string>
+    <string name="home_next_challenge">Próximo desafio · %s</string>
+    <string name="menu_resume_free">Retomar jogo livre</string>
+    <string name="menu_resume_free_sub">Continua a sessão guardada</string>
+    <string name="menu_daily">Desafio diário</string>
+    <string name="menu_daily_sub">Uma constelação por dia · funciona offline</string>
+    <string name="menu_free">Jogo livre</string>
+    <string name="menu_free_sub">Escolhe Infinito ou Zen</string>
+    <string name="menu_settings">Definições</string>
+    <string name="menu_settings_sub">Som e acessibilidade</string>
+    <string name="menu_statistics">Estatísticas</string>
+    <string name="menu_statistics_sub">O teu percurso</string>
+    <string name="menu_credits">Créditos</string>
+    <string name="cd_previous_orbit">Órbita anterior</string>
+    <string name="cd_next_orbit">Órbita seguinte</string>
+    <string name="map_unfinished_stars">Estrelas por conquistar</string>
+    <string name="map_orbit_complete">Órbita concluída · %1$d / %2$d estrelas</string>
+    <string name="map_no_unfinished">Ainda não há níveis concluídos com estrelas por conquistar nesta órbita.</string>
+    <string name="map_unavailable">O mapa desta órbita ainda não está disponível.</string>
+    <string name="map_play_level">Jogar nível %d</string>
+    <string name="map_locked">Bloqueado</string>
+    <string name="cd_level_locked">Nível %d, bloqueado</string>
+    <string name="cd_level_available">Nível %d, disponível</string>
+    <string name="prep_title">Preparação</string>
+    <string name="prep_ready">Pronto para jogar?</string>
+    <string name="prep_default_objective">Combina as bolhas e descobre a rota certa.</string>
+    <string name="prep_objective">Objetivo</string>
+    <string name="prep_default_goal">Conclui o desafio</string>
+    <string name="prep_difficulty">Dificuldade</string>
+    <string name="prep_star_finish">concluir o nível</string>
+    <string name="prep_aim">Mira: %1$s · pontos %2$s</string>
+    <string name="prep_your_best">O teu melhor</string>
+    <string name="prep_best_points">· %s pontos</string>
+    <string name="prep_how_to_play">Como jogar</string>
+    <string name="prep_new">NOVIDADE</string>
+    <string name="prep_start">Começar nível</string>
+    <string name="free_intro">Escolhe a dificuldade e o modo.</string>
+    <string name="free_dev_catalog">Catálogo de desenvolvimento (piloto): as ondas repetem os níveis disponíveis.</string>
+    <string name="mode_endless">Infinito</string>
+    <string name="mode_endless_desc">Avança por ondas e tenta superar o teu recorde.</string>
+    <string name="mode_endless_record">Recorde %1$s · %2$s</string>
+    <string name="mode_zen">Zen</string>
+    <string name="mode_zen_desc">Joga ao teu ritmo, sem limite de jogadas.</string>
+    <string name="mode_zen_session">Sessão disponível</string>
+    <string name="mode_zen_unranked">Sem classificação</string>
+    <string name="free_footer">O jogo livre não altera o progresso da campanha.</string>
+    <string name="daily_intro">Uma constelação para cada dificuldade. O desafio muda à meia-noite, pela data do dispositivo. Podes repetir para melhorar o teu resultado.</string>
+    <string name="daily_today">Constelação de hoje · nível %d</string>
+    <string name="daily_waiting">O teu desafio está à espera.</string>
+    <string name="daily_best">Melhor resultado: %s pontos</string>
+    <string name="daily_resume">Retomar desafio</string>
+    <string name="daily_replay">Repetir desafio</string>
+    <string name="daily_play">Jogar desafio</string>
+    <string name="daily_footer">Sem limite de tempo. Os resultados ficam guardados à parte da campanha e do jogo livre.</string>
+    <string name="zen_title">Tabuleiros Zen</string>
+    <string name="zen_favorites">Favoritos desta órbita</string>
+    <string name="zen_no_favorites">Marca uma estrela ao lado de um tabuleiro para o guardar nos favoritos.</string>
+    <string name="cd_zen_unfavorite">Remover nível %d dos favoritos</string>
+    <string name="cd_zen_favorite">Guardar nível %d nos favoritos</string>
+    <string name="zen_footer">Todos os tabuleiros estão disponíveis no Zen. Sem pontuação nem limite de jogadas.</string>
+    <string name="stats_levels">Níveis</string>
+    <string name="stats_stars">Estrelas</string>
+    <string name="stats_wins">Vitórias</string>
+    <string name="stats_losses">Derrotas</string>
+    <string name="stats_shots">Disparos</string>
+    <string name="stats_bubbles">Bolhas limpas</string>
+    <string name="stats_campaign_points">Pontos na campanha</string>
+    <string name="stats_endless_record">Recorde Infinito</string>
+    <string name="stats_achievements">Conquistas · %1$d / %2$d</string>
+    <string name="credits_description">Um jogo de lançar bolhas sob um céu noturno. Atravessa doze órbitas e 600 constelações, cada uma em Fácil, Médio e Difícil, ou joga sem fim nos modos Infinito e Zen. Funciona sem ligação à internet, sem anúncios e sem compras.</string>
+    <string name="retry_load">Tentar carregar novamente</string>
+    <string name="retry_save">Tentar guardar</string>
+    <string name="game_preparing_board">A preparar o tabuleiro…</string>
+    <string name="pause_title">Pausa</string>
+    <string name="cd_pause">Pausa</string>
+    <string name="pause_save_pending">A última jogada aguarda gravação. Usa Tentar guardar para continuar.</string>
+    <string name="pause_message">A partida está em pausa. As jogadas são guardadas automaticamente.</string>
+    <string name="pause_in_level">Neste nível</string>
+    <string name="board_pieces_title">Peças do tabuleiro</string>
+    <string name="board_piece_line">Linha %1$d, posição %2$d: %3$s</string>
+    <string name="back_to_game">Voltar ao jogo</string>
+    <string name="hud_endless">Infinito · %s</string>
+    <string name="cd_board_pieces">Consultar peças do tabuleiro</string>
+    <string name="hud_danger">As bolhas estão perto do limite</string>
+    <string name="hud_one_star">Conclui para ganhar 1 estrela</string>
+    <string name="hud_record">Recorde %s</string>
+    <string name="hud_streak">sequência ×%d</string>
+    <string name="tutorial_aim_precise">Treino 1/3: ajusta a mira e toca em Disparar. Este treino não gasta jogadas.</string>
+    <string name="tutorial_aim_drag">Treino 1/3: arrasta para mirar e levanta para experimentar. Sai do tabuleiro para cancelar. Não gastas jogadas.</string>
+    <string name="tutorial_swap">Treino 2/3: toca em Trocar bolhas para experimentar a troca gratuita.</string>
+    <string name="tutorial_match">Treino 3/3: liga três da mesma cor. As bolhas sem ligação ao teto caem. Estás pronto!</string>
+    <string name="tutorial_start">Começar jogo</string>
+    <string name="tutorial_skip">Saltar treino</string>
+    <string name="cd_points_streak">%s pontos, sequência ativa</string>
+    <string name="cd_unlimited_shots">Jogadas ilimitadas</string>
+    <string name="cd_shots_left">%1$d jogadas restantes de %2$d</string>
+    <string name="cd_board">Tabuleiro %1$s. %2$s</string>
+    <string name="board_hint_precise">Desliza para apontar e toca em Disparar.</string>
+    <string name="board_hint_drag">Desliza para apontar e levanta para disparar. Sai do tabuleiro para cancelar.</string>
+    <string name="a11y_aim_left">Ajustar mira um grau à esquerda</string>
+    <string name="a11y_aim_right">Ajustar mira um grau à direita</string>
+    <string name="swap_bubbles">Trocar bolhas</string>
+    <string name="swap_short">Trocar</string>
+    <string name="shoot">Disparar</string>
+    <string name="shoot_bubble">Disparar bolha</string>
+    <string name="aim_left">Esquerda</string>
+    <string name="aim_right">Direita</string>
+    <string name="cd_fine_aim">Ajustar mira 0,5 graus: %s</string>
+    <string name="a11y_fine_aim">Ajuste fino de 0,1 graus</string>
+    <string name="next_bubble_label">PRÓXIMA</string>
+    <string name="unused_shots_float">jogadas por usar</string>
+    <string name="bubble_rock">pedra</string>
+    <string name="bubble_star">estrela de resgate</string>
+    <string name="bubble_blue">azul, círculo</string>
+    <string name="bubble_purple">violeta, estrela</string>
+    <string name="bubble_green">verde, triângulo</string>
+    <string name="bubble_orange">laranja, quadrado</string>
+    <string name="bubble_pink">rosa, losango</string>
+    <string name="bubble_cyan">ciano, cruz</string>
+    <string name="bubble_generic">bolha</string>
+    <string name="bubble_unavailable">indisponível</string>
+    <string name="board_state">Bolha atual: %1$s. Próxima: %2$s. Mira %3$s graus. %4$s</string>
+    <string name="board_target">Destino: %s.</string>
+    <string name="board_no_target">Sem destino disponível nesta direção.</string>
+    <string name="error_open_destination">Não foi possível abrir o destino</string>
+    <string name="error_open_file">Não foi possível abrir o ficheiro</string>
+    <string name="diagnostics_saved">Diagnóstico guardado. Podes escolher se o queres partilhar.</string>
+    <string name="diagnostics_failed">Não foi possível exportar o diagnóstico: %s</string>
+    <string name="no_error_recorded">Não há nenhum erro registado.</string>
+    <string name="share_failed">Não foi possível partilhar o resultado: %s</string>
+    <string name="backup_saved">Cópia de segurança guardada.</string>
+    <string name="export_failed">Não foi possível exportar: %s</string>
+    <string name="backup_too_large">A cópia excede 2 MiB</string>
+    <string name="import_failed">Não foi possível importar: %s</string>
+    <string name="share_footer">%s · Sem ligação à internet</string>
+    <plurals name="shots_count">
+        <item quantity="one">%d jogada</item>
+        <item quantity="many">%d jogadas</item>
+        <item quantity="other">%d jogadas</item>
+    </plurals>
+    <plurals name="stars_count">
+        <item quantity="one">%d estrela</item>
+        <item quantity="many">%d estrelas</item>
+        <item quantity="other">%d estrelas</item>
+    </plurals>
+    <plurals name="prep_star_within">
+        <item quantity="one">até %d jogada</item>
+        <item quantity="many">até %d jogadas</item>
+        <item quantity="other">até %d jogadas</item>
+    </plurals>
+    <plurals name="hud_three_stars">
+        <item quantity="one">3 estrelas se acabares em %d jogada</item>
+        <item quantity="many">3 estrelas se acabares em %d jogadas</item>
+        <item quantity="other">3 estrelas se acabares em %d jogadas</item>
+    </plurals>
+    <plurals name="hud_two_stars">
+        <item quantity="one">2 estrelas se acabares em %d jogada</item>
+        <item quantity="many">2 estrelas se acabares em %d jogadas</item>
+        <item quantity="other">2 estrelas se acabares em %d jogadas</item>
+    </plurals>
+    <plurals name="cd_stars_potential">
+        <item quantity="one">Ainda podes ganhar %d estrela</item>
+        <item quantity="many">Ainda podes ganhar %d estrelas</item>
+        <item quantity="other">Ainda podes ganhar %d estrelas</item>
+    </plurals>
+    <plurals name="confirm_restore_message">
+        <item quantity="one">A cópia contém %d nível concluído entre as três dificuldades. Vai substituir o progresso atual; fica guardada uma cópia anterior.</item>
+        <item quantity="many">A cópia contém %d níveis concluídos entre as três dificuldades. Vai substituir o progresso atual; fica guardada uma cópia anterior.</item>
+        <item quantity="other">A cópia contém %d níveis concluídos entre as três dificuldades. Vai substituir o progresso atual; fica guardada uma cópia anterior.</item>
+    </plurals>
+    <string-array name="orbit_names">
+        <item>Primeiro Céu</item>
+        <item>Vale Lunar</item>
+        <item>Jardim de Estrelas</item>
+        <item>Cintura de Asteroides</item>
+        <item>Aurora Violeta</item>
+        <item>Mar de Órbitas</item>
+        <item>Ponte Celeste</item>
+        <item>Ecos da Lua</item>
+        <item>Nebulosa Azul</item>
+        <item>Horizonte Distante</item>
+        <item>Coroa Boreal</item>
+        <item>Última Constelação</item>
+    </string-array>
+    <string-array name="color_names">
+        <item>azul</item>
+        <item>violeta</item>
+        <item>verde</item>
+        <item>laranja</item>
+        <item>rosa</item>
+        <item>ciano</item>
+    </string-array>
+    <string-array name="orbit_one_level_titles">
+        <item>Primeiro disparo</item>
+        <item>Grupo ligado</item>
+        <item>Duas cores</item>
+        <item>Queda livre</item>
+        <item>Escolhe a próxima</item>
+        <item>Rota pela esquerda</item>
+        <item>Rota pela direita</item>
+        <item>Dois apoios</item>
+        <item>Prepara e conclui</item>
+        <item>Pequena síntese</item>
+        <item>Duas margens</item>
+        <item>Degraus</item>
+        <item>Ilhas suspensas</item>
+        <item>Arco baixo</item>
+        <item>Leque</item>
+        <item>Bolsa esquerda</item>
+        <item>Colunas</item>
+        <item>Corredor largo</item>
+        <item>Arco e pilar</item>
+        <item>Pontes frágeis</item>
+        <item>Escada cruzada</item>
+        <item>Leque inverso</item>
+        <item>Bolsa direita</item>
+        <item>Colunas cheias</item>
+        <item>Muralhas</item>
+        <item>Degrau invertido</item>
+        <item>Arco duplo</item>
+        <item>Ilhas em linha</item>
+        <item>Cavidade funda</item>
+        <item>Leque em degraus</item>
+        <item>Colunas deslocadas</item>
+        <item>Corredor central</item>
+        <item>Escada curta</item>
+        <item>Arco invertido</item>
+        <item>Ilhas com âncora</item>
+        <item>Leque profundo</item>
+        <item>Bolsas duplas</item>
+        <item>Colunas altas</item>
+        <item>Escada larga</item>
+        <item>Pórtico</item>
+        <item>Arco pequeno</item>
+        <item>Ilhas altas</item>
+        <item>Leque lateral</item>
+        <item>Dupla entrada</item>
+        <item>Colunas em espiral</item>
+        <item>Socalco</item>
+        <item>Arco com saída</item>
+        <item>Ponte única</item>
+        <item>Leque tardio</item>
+        <item>Porta final</item>
+    </string-array>
+</resources>

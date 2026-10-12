@@ -1,0 +1,685 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": 1,
+  "id": "level-0051",
+  "ordinal": 51,
+  "orbitId": "orbit-02",
+  "titlePt": "Órbita 2 · nível 1",
+  "familyId": "twin-supports",
+  "learningTags": [
+    "procedural"
+  ],
+  "revision": 4,
+  "authorNotes": "Procedural candidate; certified by solver and replay.",
+  "variants": {
+    "easy": {
+      "seedHex": "0e897a6fe8bf94ea",
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 0,
+          "c": 8,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 8,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "kind": "rock"
+        },
+        {
+          "r": 3,
+          "c": 7,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 4,
+          "c": 8,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 5,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "kind": "rock"
+        },
+        {
+          "r": 6,
+          "c": 7,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 7,
+          "c": 6,
+          "kind": "color",
+          "color": "cyan"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 10,
+      "threeStarMaxShots": 5,
+      "twoStarMaxShots": 7,
+      "expectedMetrics": {
+        "familyId": "twin-supports",
+        "minBounces": 0
+      }
+    },
+    "medium": {
+      "seedHex": "15f98322cbb187ec",
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 0,
+          "c": 8,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 2,
+          "c": 7,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "kind": "rock"
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 5,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 6,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 3,
+          "c": 7,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 4,
+          "c": 5,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 4,
+          "c": 6,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 4,
+          "c": 7,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 5,
+          "c": 3,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "kind": "rock"
+        },
+        {
+          "r": 5,
+          "c": 5,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 5,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 5,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 6,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 6,
+          "c": 6,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 6,
+          "c": 8,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 7,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 8,
+      "threeStarMaxShots": 5,
+      "twoStarMaxShots": 6,
+      "expectedMetrics": {
+        "familyId": "twin-supports",
+        "minBounces": 0
+      }
+    },
+    "hard": {
+      "seedHex": "7e7ef04e923e4f35",
+      "board": [
+        {
+          "r": 0,
+          "c": 0,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "rock"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 2,
+          "c": 7,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "kind": "rock"
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 4,
+          "c": 0,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 4,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 5,
+          "c": 0,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 5,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 6,
+          "c": 0,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 6,
+          "c": 1,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 6,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 6,
+          "c": 3,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 6,
+          "c": 5,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 7,
+          "c": 3,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 7,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 8,
+          "c": 4,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 9,
+          "c": 4,
+          "kind": "color",
+          "color": "cyan"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 10,
+      "threeStarMaxShots": 8,
+      "twoStarMaxShots": 9,
+      "expectedMetrics": {
+        "familyId": "twin-supports",
+        "minBounces": 0
+      }
+    }
+  }
+}

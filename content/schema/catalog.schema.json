@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bubblenight.local/schema/catalog.schema.json",
+  "title": "Bubble Night campaign catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "engineVersion", "contentVersion", "buildStage", "expectedBaseCount", "expectedVariantCount", "chapters", "levels"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "engineVersion": {"type": "integer", "minimum": 1},
+    "contentVersion": {"type": "string", "minLength": 1, "maxLength": 32},
+    "buildStage": {"enum": ["slice", "pilot", "full"]},
+    "expectedBaseCount": {"type": "integer", "minimum": 1, "maximum": 600},
+    "expectedVariantCount": {"type": "integer", "minimum": 3, "maximum": 1800},
+    "chapters": {"type": "array", "minItems": 1, "maxItems": 12, "items": {"$ref": "#/$defs/chapter"}},
+    "levels": {"type": "array", "items": {"$ref": "#/$defs/entry"}}
+  },
+  "$defs": {
+    "chapter": {
+      "type": "object", "additionalProperties": false,
+      "required": ["orbitId", "firstOrdinal", "lastOrdinal", "titlePt"],
+      "properties": {
+        "orbitId": {"type": "string", "pattern": "^orbit-(0[1-9]|1[0-2])$"},
+        "firstOrdinal": {"type": "integer", "minimum": 1, "maximum": 600},
+        "lastOrdinal": {"type": "integer", "minimum": 1, "maximum": 600},
+        "titlePt": {"type": "string", "minLength": 1, "maxLength": 80}
+      }
+    },
+    "entry": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "ordinal", "path", "revision", "sha256"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^level-(?!0000)[0-9]{4}$"},
+        "ordinal": {"type": "integer", "minimum": 1, "maximum": 600},
+        "path": {"type": "string", "pattern": "^content/levels/(?!.*(?:^|/)\\.\\.(?:/|$))[A-Za-z0-9._/-]+\\.json$"},
+        "revision": {"type": "integer", "minimum": 1},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"buildStage": {"const": "slice"}}, "required": ["buildStage"]}, "then": {"properties": {"expectedBaseCount": {"const": 10}, "expectedVariantCount": {"const": 30}}}},
+    {"if": {"properties": {"buildStage": {"const": "pilot"}}, "required": ["buildStage"]}, "then": {"properties": {"expectedBaseCount": {"const": 50}, "expectedVariantCount": {"const": 150}}}},
+    {"if": {"properties": {"buildStage": {"const": "full"}}, "required": ["buildStage"]}, "then": {"properties": {"expectedBaseCount": {"const": 600}, "expectedVariantCount": {"const": 1800}}}}
+  ]
+}

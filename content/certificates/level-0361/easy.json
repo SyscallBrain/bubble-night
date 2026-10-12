@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "baseId": "level-0361",
+  "difficulty": "easy",
+  "levelRevision": 4,
+  "levelSemanticHash": "7041fab4ab25f446f7fb5e753a71f9b2715e2391458536547301543387915b64",
+  "engineVersion": 1,
+  "seedHex": "95a25c341ca9fea8",
+  "initialStateHash": "d2f886351273ea7d4fc87837d665f3a91dc23d5448d3503f60476127cc9df5a1",
+  "steps": [
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": -450,
+      "afterStateHash": "2581e24a3da3d5e25a001d086c4b4ecf0f1170be0cd171e2a7a7d5489a715f8f",
+      "metrics": {
+        "target": {
+          "r": 6,
+          "c": 4
+        },
+        "bounces": 0,
+        "matchedCells": 12,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 2450
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": 1000,
+      "afterStateHash": "d94e2ed8ee0f3577ea5649ba0f841396352a19f8b3e6f4fd6207d02d9a3fd641",
+      "metrics": {
+        "target": {
+          "r": 4,
+          "c": 4
+        },
+        "bounces": 0,
+        "matchedCells": 4,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 4000
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": -5200,
+      "afterStateHash": "a2482a78f7af47c4bba8424d7138e6529d2522fcd6f07cf61234de8e84316e70",
+      "metrics": {
+        "target": {
+          "r": 2,
+          "c": 3
+        },
+        "bounces": 0,
+        "matchedCells": 8,
+        "droppedCells": 9,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 2991
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": -7550,
+      "afterStateHash": "8259ef3c4efae383dd45b2f9de67fa75f9acc0a7e0906b867dd8d6176a87324b",
+      "metrics": {
+        "target": {
+          "r": 0,
+          "c": 2
+        },
+        "bounces": 0,
+        "matchedCells": 4,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 3434
+      }
+    }
+  ],
+  "finalStateHash": "8259ef3c4efae383dd45b2f9de67fa75f9acc0a7e0906b867dd8d6176a87324b",
+  "shotsUsed": 4,
+  "score": 2440,
+  "rescuedStars": 0,
+  "outcome": "WON",
+  "aimWindows": [
+    {
+      "stepIndex": 0,
+      "lowerMilliDegrees": -2450,
+      "upperMilliDegrees": 0,
+      "testedWidthMilliDegrees": 2450
+    },
+    {
+      "stepIndex": 1,
+      "lowerMilliDegrees": -1000,
+      "upperMilliDegrees": 3000,
+      "testedWidthMilliDegrees": 4000
+    },
+    {
+      "stepIndex": 2,
+      "lowerMilliDegrees": -7200,
+      "upperMilliDegrees": -4209,
+      "testedWidthMilliDegrees": 2991
+    },
+    {
+      "stepIndex": 3,
+      "lowerMilliDegrees": -9550,
+      "upperMilliDegrees": -6116,
+      "testedWidthMilliDegrees": 3434
+    }
+  ]
+}

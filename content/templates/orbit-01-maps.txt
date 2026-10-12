@@ -1,0 +1,743 @@
+# Orbit 1 — hand-authored maps for levels 11–50 (pilot).
+# Readable source of the blueprints. Convert with: tools/author_orbit01.py -> orbit-01-blueprints.json
+# Letters: b=blue p=purple g=green o=orange k=pink c=cyan; '.' empty.
+# Even rows have 9 cells (c=0..8), odd rows 8 (c=0..7). Missing rows are empty.
+# Header: ## <ordinal> | <family> | <Portuguese title> | <learning tag> | <min bounces>
+# Levels 1–10 live in opening-slice.json.
+
+## 11 | open-corridor | Duas margens | direct-aim | 0
+### easy
+r0: bbb...bbb
+r1: gg....gg
+r2: bb.....bb
+r3: pp....pp
+### medium
+r0: bbb...bbb
+r1: gg....gg
+r2: bb.....bb
+r3: pp....pp
+r4: oo.....oo
+### hard
+r0: bbb...bbb
+r1: gg....gg
+r2: bb.....bb
+r3: pp....pp
+r4: oo.....oo
+r5: kk....kk
+
+## 12 | staircase | Degraus | color-choice | 0
+### easy
+r0: bbbb.....
+r1: ppp.....
+r2: ggg......
+r3: bb......
+### medium
+r0: bbbb.....
+r1: ppp.....
+r2: ggg......
+r3: oo......
+### hard
+r0: bbbb.....
+r1: ppp.....
+r2: ggg......
+r3: oo......
+r4: kk.......
+
+## 13 | anchored-islands | Ilhas suspensas | unsupported-fall | 0
+### easy
+r0: bb......b
+r1: pp....pp
+r2: gg.....gg
+### medium
+r0: b.......b
+r1: pp....pp
+r2: gg.....gg
+r3: oo....oo
+### hard
+r0: bb.....bb
+r1: pp....pp
+r2: gg.....gg
+r3: oo....oo
+r4: kk.....kk
+r5: cc.....c
+
+## 14 | shallow-arch | Arco baixo | direct-aim | 0
+### easy
+r0: ..bbbbb..
+r1: gg....gg
+r2: pp.....pp
+### medium
+r0: ..bbbbb..
+r1: gg....gg
+r2: pp.....pp
+r3: oo....oo
+### hard
+r0: ..bbbbb..
+r1: gg....gg
+r2: pp.....pp
+r3: oo....oo
+r4: kk.....kk
+
+## 15 | fan | Leque | branch-choice | 0
+### easy
+r0: ...ggg...
+r1: ..ppp...
+r2: ..bbbbb..
+### medium
+r0: ...ggg...
+r1: ..ppp...
+r2: ..bbbbb..
+r3: .oo..oo.
+### hard
+r0: ...ggg...
+r1: ..ppp...
+r2: ..bbbbb..
+r3: .oo..oo.
+r4: .kkkkkkk.
+
+## 16 | side-pockets | Bolsa esquerda | wall-bank | 1
+### easy
+r0: bbbbbbb..
+r1: pp.....
+r2: ..gggg...
+### medium
+r0: bbbbbbb..
+r1: pp.....
+r2: ..gggg...
+r3: ...oo...
+### hard
+r0: bbbbbbb..
+r1: pp.....
+r2: ..gggg...
+r3: ...oo...
+r4: ...kk....
+r5: ...c....
+
+## 17 | alternating-columns | Colunas | column-order | 0
+### easy
+r0: bbbp.pbbb
+r1: ppgggppp
+r2: gggbbbggg
+
+### medium
+r0: bbb...bbb
+r1: gg....gg
+r2: pp.....pp
+r3: oo....oo
+
+### hard
+r0: bbb...bbb
+r1: gg....gg
+r2: pp.....pp
+r3: oo....oo
+r4: kkk...kkk
+
+## 18 | open-corridor | Corredor largo | clear-bank | 0
+### easy
+r0: bbbb...bb
+r1: pp....pp
+r2: gggg...gg
+### medium
+r0: bbbb...bb
+r1: pp....pp
+r2: gggg...gg
+r3: oo....oo
+### hard
+r0: bbbb...bb
+r1: pp....pp
+r2: gggg...gg
+r3: oo....oo
+r4: kk.....kk
+r5: cc....cc
+
+## 19 | shallow-arch | Arco e pilar | arch-lane | 0
+### easy
+r0: ..ppppp..
+r1: bbb...bb
+r2: gg.....gg
+### medium
+r0: ..ppppp..
+r1: bbb...bb
+r2: gg.....gg
+r3: oo...oo.
+### hard
+r0: ..ppppp..
+r1: bbb...bb
+r2: gg.....gg
+r3: oo...oo.
+r4: kk.....kk
+r5: c......c
+
+## 20 | anchored-islands | Pontes frágeis | anchor-cut | 0
+### easy
+r0: bb....b..
+r1: pp...pp.
+r2: ggg...ggg
+### medium
+r0: b.....b..
+r1: pp...pp.
+r2: ggg...ggg
+r3: .oo...oo
+### hard
+r0: bb....b..
+r1: pp...pp.
+r2: ggg...ggg
+r3: .oo...oo
+r4: kkk...kkk
+r5: cc....c.
+
+## 21 | staircase | Escada cruzada | step-plan | 0
+### easy
+r0: .bbb.....
+r1: pp......
+r2: .gg......
+r3: pppp....
+### medium
+r0: .bbb.....
+r1: pp......
+r2: .gg......
+r3: pppp....
+r4: ooo......
+### hard
+r0: .bbb.....
+r1: pp......
+r2: .gg......
+r3: pppp....
+r4: ooo......
+r5: kk......
+
+## 22 | fan | Leque inverso | branch-fall | 0
+### easy
+r0: ..bbbbb..
+r1: ...ggg..
+r2: .ppppp...
+### medium
+r0: ..bbbbb..
+r1: ...ggg..
+r2: .ppppp...
+r3: ..oo.oo.
+### hard
+r0: ..bbbbb..
+r1: gg....gg
+r2: pp.....pp
+r3: oo....oo
+r4: kkk...kkk
+
+## 23 | side-pockets | Bolsa direita | wall-bank | 1
+### easy
+r0: ..bbbbbbb
+r1: .....pp.
+r2: ......gg.
+### medium
+r0: ..bbbbbbb
+r1: .....pp.
+r2: ......gg.
+r3: ....oo..
+### hard
+r0: ..bbbbbbb
+r1: .....pp.
+r2: ......gg.
+r3: ....oo..
+r4: ...kk....
+
+## 24 | alternating-columns | Colunas cheias | column-order | 0
+### easy
+r0: bbb.pppbb
+r1: gggpppgg
+r2: bbbgggbb
+
+### medium
+r0: bb.bb.bb.
+r1: .pp.pp.p
+r2: ggg.ggg..
+r3: .oo.oo..
+### hard
+r0: bb.bb.bb.
+r1: .pp.pp.p
+r2: ggg.ggg..
+r3: .oo.oo..
+r4: kkk.kkk..
+r5: .c.c.c..
+
+## 25 | open-corridor | Muralhas | clear-bank | 0
+### easy
+r0: ggg...ggg
+r1: bb.....b
+r2: pp.....pp
+### medium
+r0: ggg...ggg
+r1: bb.....b
+r2: pp.....pp
+r3: oo....oo
+### hard
+r0: ggg...ggg
+r1: bb.....b
+r2: pp.....pp
+r3: oo....oo
+r4: kk.....kk
+r5: c......c
+
+## 26 | staircase | Degrau invertido | color-choice | 0
+### easy
+r0: ........b
+r1: ......pp
+r2: ......ggg
+r3: ....bbbb
+### medium
+r0: ........b
+r1: ......pp
+r2: ......ggg
+r3: ....bbbb
+r4: ....oo...
+### hard
+r0: ........b
+r1: ......pp
+r2: ......ggg
+r3: ....bbbb
+r4: ....oo...
+r5: ...kkk..
+
+## 27 | shallow-arch | Arco duplo | arch-lane | 0
+### easy
+r0: ..ggg.ggg
+r1: .bb...bb
+r2: pp.....pp
+### medium
+r0: ..ggg.ggg
+r1: .bb...bb
+r2: pp.....pp
+r3: oo...oo.
+### hard
+r0: ..ggg.ggg
+r1: .bb...bb
+r2: pp.....pp
+r3: oo...oo.
+r4: kk.....kk
+r5: cc...cc.
+
+## 28 | anchored-islands | Ilhas em linha | anchor-cut | 0
+### easy
+r0: bbbpp.bbb
+r1: gggggggg
+r2: pppgggppp
+
+### medium
+r0: ..b...b..
+r1: ..pp.pp.
+r2: ..g.g.g..
+r3: oo.oo.oo
+### hard
+r0: ..b...b..
+r1: ..pp.pp.
+r2: ..g.g.g..
+r3: oo.oo.oo
+r4: .kkk.kkk.
+
+## 29 | side-pockets | Cavidade funda | lip-open | 1
+### easy
+r0: ...bbb...
+r1: ppp.....
+r2: ..ggggg..
+### medium
+r0: ...bbb...
+r1: ppp.....
+r2: ..ggggg..
+r3: ....oo..
+### hard
+r0: ...bbb...
+r1: ppp.....
+r2: ..ggggg..
+r3: ....oo..
+r4: ...kkkk..
+
+## 30 | fan | Leque em degraus | branch-fall | 0
+### easy
+r0: .ppp.ppp.
+r1: ..b.b.b.
+r2: ggggggg..
+### medium
+r0: .ppp.ppp.
+r1: ..b.b.b.
+r2: ggggggg..
+r3: ...oo.oo
+### hard
+r0: .ppp.ppp.
+r1: ..b.b.b.
+r2: ggggggg..
+r3: ...oo.oo
+r4: kkkkkk...
+r5: ..cc.cc.
+
+## 31 | alternating-columns | Colunas deslocadas | column-order | 0
+### easy
+r0: gg.pppggg
+r1: bbbbbbbb
+r2: ppppgggpp
+
+### medium
+r0: .g.g.g.g.
+r1: b.b.b.b.
+r2: .pp.pp.pp
+r3: o.o.o.o.
+### hard
+r0: ggg...ggg
+r1: bb....bb
+r2: pp.....pp
+r3: oo....oo
+r4: kk.....kk
+r5: cc....cc
+
+## 32 | open-corridor | Corredor central | direct-aim | 0
+### easy
+r0: bbbbbbb.b
+r1: pppppppp
+r2: ggggggggg
+
+### medium
+r0: bb.....bb
+r1: ppp...pp
+r2: gg.....gg
+r3: oo...oo.
+### hard
+r0: bb.....bb
+r1: ppp...pp
+r2: gg.....gg
+r3: oo...oo.
+r4: kk.....kk
+r5: cc...cc.
+
+## 33 | staircase | Escada curta | step-plan | 0
+### easy
+r0: bbb......
+r1: pp......
+r2: ggg......
+r3: .bb.....
+### medium
+r0: bbb......
+r1: pp......
+r2: ggg......
+r3: .bb.....
+r4: oooo.....
+### hard
+r0: bbb......
+r1: pp......
+r2: ggg......
+r3: .bb.....
+r4: oooo.....
+r5: kkk.....
+
+## 34 | shallow-arch | Arco invertido | arch-lane | 0
+### easy
+r0: ggg...ggg
+r1: .pp...pp
+r2: bbb...bbb
+### medium
+r0: ggg...ggg
+r1: .pp...pp
+r2: bbb...bbb
+r3: oo.....o
+### hard
+r0: ggg...ggg
+r1: .pp...pp
+r2: bbb...bbb
+r3: oo.....o
+r4: kkk...kkk
+r5: c.....c.
+
+## 35 | anchored-islands | Ilhas com âncora | anchor-cut | 0
+### easy
+r0: bb.....bb
+r1: pp.....p
+r2: gg.....gg
+### medium
+r0: bb.....bb
+r1: pp.....p
+r2: gg.....gg
+r3: oo....oo
+### hard
+r0: bb.....bb
+r1: pp.....p
+r2: gg.....gg
+r3: oo....oo
+r4: kk.....kk
+r5: cc.....c
+
+## 36 | fan | Leque profundo | branch-fall | 0
+### easy
+r0: .ppbbbppp
+r1: bbbgggbb
+r2: gggpppggg
+
+### medium
+r0: ppp...ppp
+r1: bb....bb
+r2: ggg...ggg
+r3: oo....oo
+
+### hard
+r0: ...ppp...
+r1: ..bbbbb.
+r2: .ggggggg.
+r3: ..oo.oo.
+r4: .kkkkkkk.
+r5: ..cc.cc.
+
+## 37 | side-pockets | Bolsas duplas | wall-bank | 1
+### easy
+r0: bb.....bb
+r1: pp.....p
+r2: ..gg...gg
+### medium
+r0: bb.....bb
+r1: pp.....p
+r2: ..gg...gg
+r3: .oo...o.
+### hard
+r0: bb.....bb
+r1: pp.....p
+r2: ..gg...gg
+r3: .oo...o.
+r4: ..kkk.kk.
+
+## 38 | alternating-columns | Colunas altas | column-order | 0
+### easy
+r0: b.bbbbbbb
+r1: pppgpppp
+r2: ggpgggpgg
+
+### medium
+r0: b.bbbb...
+r1: .p.p.p..
+r2: gg.gg.gg.
+r3: .o.o.o.o
+### hard
+r0: bbb...bbb
+r1: gg....gg
+r2: pp.....pp
+r3: oo....oo
+r4: kkk...kkk
+r5: cc....cc
+
+## 39 | staircase | Escada larga | color-choice | 0
+### easy
+r0: ...bbbbb.
+r1: ....pp..
+r2: .....ggg.
+r3: ....ppp.
+### medium
+r0: ...bbbbb.
+r1: ....pp..
+r2: .....ggg.
+r3: ....ppp.
+r4: ...oo....
+### hard
+r0: ...bbbbb.
+r1: ....pp..
+r2: .....ggg.
+r3: ....ppp.
+r4: ...oo....
+r5: ..kk....
+
+## 40 | open-corridor | Pórtico | clear-bank | 0
+### easy
+r0: bbb...ppp
+r1: gg.....g
+r2: bb.....bb
+### medium
+r0: bbb...ppp
+r1: gg.....g
+r2: bb.....bb
+r3: oo...oo.
+### hard
+r0: bbb...ppp
+r1: gg.....g
+r2: bb.....bb
+r3: oo...oo.
+r4: kk.....kk
+r5: cc...cc.
+
+## 41 | shallow-arch | Arco pequeno | arch-lane | 0
+### easy
+r0: ..oo.oo..
+r1: pp....pp
+r2: bbb...bbb
+### medium
+r0: ..oo.oo..
+r1: pp....pp
+r2: bbb...bbb
+r3: gg...gg.
+### hard
+r0: ..oo.oo..
+r1: pp....pp
+r2: bbb...bbb
+r3: gg...gg.
+r4: kkk.kkk..
+r5: c.....c.
+
+## 42 | anchored-islands | Ilhas altas | anchor-cut | 0
+### easy
+r0: bbb.ppbbb
+r1: ppgggppp
+r2: gggbbbggg
+
+### medium
+r0: .b...b...
+r1: .pp.pp..
+r2: ..g.g.g..
+r3: oo.oo...
+### hard
+r0: .b...b...
+r1: .pp.pp..
+r2: ..g.g.g..
+r3: oo.oo...
+r4: kk.kk....
+r5: c.c.c...
+
+## 43 | fan | Leque lateral | branch-fall | 0
+### easy
+r0: bb.....bb
+r1: .pp...pp
+r2: .ggggggg.
+### medium
+r0: bb.....bb
+r1: .pp...pp
+r2: .ggggggg.
+r3: ..oo.oo.
+### hard
+r0: bb.....bb
+r1: .pp...pp
+r2: .ggggggg.
+r3: ..oo.oo.
+r4: ..kkkkk..
+r5: .c.....
+
+## 44 | side-pockets | Dupla entrada | lip-open | 1
+### easy
+r0: ...ggg...
+r1: ..b..bb.
+r2: ...p.pp..
+### medium
+r0: ...ggg...
+r1: ..b..b..
+r2: ...p.p...
+r3: ..oo.oo.
+### hard
+r0: ...ggg...
+r1: ..b..b..
+r2: ...p.p...
+r3: ..oo.oo.
+r4: ..kkkkk..
+r5: .c.c.c..
+
+## 45 | alternating-columns | Colunas em espiral | column-order | 0
+### easy
+r0: .bbbbbbbb
+r1: pppppppp
+r2: ggggggggg
+
+### medium
+r0: .bbpppggg
+r1: gggbbbpp
+r2: pppgggbbb
+r3: oooppggo
+
+### hard
+r0: bbbb.bbbb
+r1: gg....gg
+r2: pp.....pp
+r3: oo....oo
+r4: kk.....kk
+r5: cc....c
+
+## 46 | staircase | Socalco | step-plan | 0
+### easy
+r0: bbbbb....
+r1: ppppp...
+r2: ggggg....
+r3: bbbb....
+### medium
+r0: bbbbb....
+r1: ppppp...
+r2: ggggg....
+r3: bbbb....
+r4: oooo.....
+### hard
+r0: bbbbb....
+r1: ppppp...
+r2: ggggg....
+r3: bbbb....
+r4: oooo.....
+r5: kkk.....
+
+## 47 | shallow-arch | Arco com saída | arch-lane | 0
+### easy
+r0: ..ppppp..
+r1: gg....gg
+r2: b.bbbbb.b
+### medium
+r0: ..ppppp..
+r1: gg....gg
+r2: b.bbbbb.b
+r3: oo...oo.
+### hard
+r0: ..ppppp..
+r1: gg....gg
+r2: b.bbbbb.b
+r3: oo...oo.
+r4: kk...kk..
+r5: c.....c.
+
+## 48 | anchored-islands | Ponte única | anchor-cut | 0
+### easy
+r0: ...bbb...
+r1: ppp..pp.
+r2: gg...gg..
+### medium
+r0: ...b.b...
+r1: ppp..pp.
+r2: gg...gg..
+r3: oo.oo.oo
+### hard
+r0: ...b.b...
+r1: ppp..pp.
+r2: gg...gg..
+r3: oo.oo.oo
+r4: k.k.k.k.k
+r5: c.....c.
+
+## 49 | fan | Leque tardio | branch-fall | 0
+### easy
+r0: .gg.gg.gg
+r1: ..bbbbb.
+r2: ..ppppp..
+### medium
+r0: .gg.gg.gg
+r1: ..bbbbb.
+r2: ..ppppp..
+r3: ..oo.oo.
+### hard
+r0: .gg.gg.gg
+r1: ..bbbbb.
+r2: ..ppppp..
+r3: ..oo.oo.
+r4: .kkkkkkk.
+r5: ..cc.cc.
+
+## 50 | open-corridor | Porta final | clear-bank | 0
+### easy
+r0: ggg.ggggg
+r1: bbbbbbbb
+r2: ppppppppp
+
+### medium
+r0: bbbbb...b
+r1: pp.....p
+r2: gg.....gg
+r3: oo....oo
+### hard
+r0: bbbbb...b
+r1: pp.....p
+r2: gg.....gg
+r3: oo....oo
+r4: kkk...kkk
+r5: c.....cc

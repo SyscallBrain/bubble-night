@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bubblenight.local/schema/level.schema.json",
+  "title": "Bubble Night level definition",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "engineVersion", "id", "ordinal", "orbitId", "titlePt", "familyId", "learningTags", "revision", "variants"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "engineVersion": {"type": "integer", "minimum": 1},
+    "id": {"type": "string", "pattern": "^level-(?!0000)[0-9]{4}$"},
+    "ordinal": {"type": "integer", "minimum": 1, "maximum": 600},
+    "orbitId": {"type": "string", "pattern": "^orbit-(0[1-9]|1[0-2])$"},
+    "titlePt": {"type": "string", "minLength": 1, "maxLength": 80},
+    "familyId": {"type": "string", "pattern": "^[a-z][a-z0-9-]{2,47}$"},
+    "learningTags": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^[a-z][a-z0-9-]{1,31}$"}},
+    "revision": {"type": "integer", "minimum": 1},
+    "authorNotes": {"type": "string", "maxLength": 2000},
+    "variants": {
+      "type": "object", "additionalProperties": false,
+      "required": ["easy", "medium", "hard"],
+      "properties": {
+        "easy": {"$ref": "#/$defs/variant"},
+        "medium": {"$ref": "#/$defs/variant"},
+        "hard": {"$ref": "#/$defs/variant"}
+      }
+    }
+  },
+  "$defs": {
+    "cell": {
+      "type": "object", "additionalProperties": false,
+      "required": ["r", "c", "kind"],
+      "properties": {
+        "r": {"type": "integer", "minimum": 0, "maximum": 13},
+        "c": {"type": "integer", "minimum": 0, "maximum": 8},
+        "kind": {"enum": ["color", "rock", "star"]},
+        "color": {"enum": ["blue", "cyan", "green", "orange", "pink", "purple"]}
+      },
+      "allOf": [
+        {"if": {"properties": {"kind": {"const": "color"}}, "required": ["kind"]}, "then": {"required": ["color"]}},
+        {"if": {"properties": {"kind": {"enum": ["rock", "star"]}}, "required": ["kind"]}, "then": {"not": {"required": ["color"]}}}
+      ]
+    },
+    "objective": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["type"], "properties": {"type": {"const": "clear_colors"}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "total"], "properties": {"type": {"const": "rescue_stars"}, "total": {"type": "integer", "minimum": 1, "maximum": 119}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "colors"], "properties": {"type": {"const": "clear_color_set"}, "colors": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["blue", "cyan", "green", "orange", "pink", "purple"]}}}}
+      ]
+    },
+    "variant": {
+      "type": "object", "additionalProperties": false,
+      "required": ["seedHex", "board", "objective", "maxShots", "threeStarMaxShots", "twoStarMaxShots", "expectedMetrics"],
+      "properties": {
+        "seedHex": {"type": "string", "pattern": "^[0-9a-f]{16}$"},
+        "board": {"type": "array", "minItems": 1, "maxItems": 119, "items": {"$ref": "#/$defs/cell"}},
+        "objective": {"$ref": "#/$defs/objective"},
+        "maxShots": {"type": "integer", "minimum": 1, "maximum": 100},
+        "threeStarMaxShots": {"type": "integer", "minimum": 1, "maximum": 100},
+        "twoStarMaxShots": {"type": "integer", "minimum": 1, "maximum": 100},
+        "expectedMetrics": {
+          "type": "object", "additionalProperties": false,
+          "required": ["familyId", "minBounces"],
+          "properties": {
+            "familyId": {"type": "string", "pattern": "^[a-z][a-z0-9-]{2,47}$"},
+            "minBounces": {"type": "integer", "minimum": 0, "maximum": 8},
+            "maxInitialRow": {"type": "integer", "minimum": 0, "maximum": 9},
+            "minInitialCells": {"type": "integer", "minimum": 1, "maximum": 119},
+            "minAimWindowMilliDegrees": {"type": "integer", "minimum": 0, "maximum": 150000},
+            "authorRationale": {"type": "string", "maxLength": 500}
+          }
+        }
+      },
+      "allOf": [
+        {"properties": {"threeStarMaxShots": {"maximum": 100}, "twoStarMaxShots": {"maximum": 100}}}
+      ]
+    }
+  }
+}

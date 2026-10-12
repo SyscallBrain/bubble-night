@@ -1,0 +1,40 @@
+{
+  "templateSetVersion": 1,
+  "status": "authored-blueprints-not-playable-levels",
+  "generationRule": "A blueprint constrains shape and intended decision; it does not assign a certified solution. Instantiate only through core model/geometry and replay every resulting variant through the core engine.",
+  "diversityAxes": ["occupiedShape", "supportTopology", "objective", "depth", "colorComponentPartition", "firstShotChoice", "trajectoryClass", "aimWindow"],
+  "familyMaximumShare": 0.15,
+  "families": [
+    {"id":"anchored-islands","orbitRange":[1,12],"motif":"two or more separated color groups joined only by sparse roof anchors","decision":"remove an anchor to drop a remote island","avoid":"same anchor cell and same target color partition across neighboring levels"},
+    {"id":"shallow-arch","orbitRange":[1,8],"motif":"shallow symmetric arch with a deliberately open center lane","decision":"direct shot versus side route","avoid":"mirror-only variation; symmetry is not a distinct base level"},
+    {"id":"staircase","orbitRange":[1,10],"motif":"asymmetric stepped groups with changing row parity","decision":"choose a reachable step and plan the resulting group","avoid":"uniform one-color diagonal chains"},
+    {"id":"twin-supports","orbitRange":[2,12],"motif":"a bridge held by two independent supports","decision":"remove one support now or create access to both","avoid":"bridges that collapse identically for every first shot"},
+    {"id":"open-corridor","orbitRange":[1,9],"motif":"two dense banks with a clear central shooting corridor","decision":"preserve a straight route while clearing one bank","avoid":"corridor whose only meaningful action is always the same color"},
+    {"id":"side-pockets","orbitRange":[1,12],"motif":"one or two recessed side pockets behind a visible lip","decision":"use a wall bounce or open the pocket entrance","avoid":"pocket requiring an angular window below the difficulty floor"},
+    {"id":"cross-bridge","orbitRange":[2,12],"motif":"a narrow lateral bridge linking unequal masses","decision":"break the bridge at a selected side","avoid":"equal mirror halves with interchangeable outcomes"},
+    {"id":"fan","orbitRange":[1,12],"motif":"fan-shaped groups spreading from a compact upper support","decision":"select a branch whose removal creates the largest useful fall","avoid":"radial recolors retaining identical group and objective semantics"},
+    {"id":"spine","orbitRange":[2,12],"motif":"offset central spine with alternating side branches","decision":"clear a branch without closing the next route","avoid":"single-file chains that make aim and choice trivial"},
+    {"id":"alternating-columns","orbitRange":[2,12],"motif":"staggered columns with distinct gaps and support heights","decision":"choose which column to destabilize first","avoid":"periodic repetition of one identical column module"},
+    {"id":"central-rescue","orbitRange":[3,12],"motif":"one or more stars held inside a roof-connected central enclosure","decision":"remove a specific support to release the central target","avoid":"star already adjacent to an inevitable one-shot group"},
+    {"id":"lateral-rescue","orbitRange":[3,12],"motif":"star-bearing side mass reachable by a deliberate bank or bridge removal","decision":"select the side and support whose fall frees the target","avoid":"unreadable hidden access or an arbitrarily narrow bank angle"}
+  ],
+  "openingSliceLearningSequence": [
+    {"ordinal":1,"concept":"direct-shot aim","familyId":"open-corridor","intent":"one clear direct shot teaches aim and a valid match"},
+    {"ordinal":2,"concept":"connected-group matching","familyId":"fan","intent":"show that all same-color cells in the connected group resolve together"},
+    {"ordinal":3,"concept":"color selection","familyId":"staircase","intent":"make target choice visible while another color remains present"},
+    {"ordinal":4,"concept":"unsupported fall","familyId":"anchored-islands","intent":"remove a support and observe a disconnected mass fall"},
+    {"ordinal":5,"concept":"free ammunition swap","familyId":"open-corridor","intent":"make current/next choice materially useful; swap costs no shot"},
+    {"ordinal":6,"concept":"left wall bank","familyId":"side-pockets","intent":"teach a broad, readable left-wall route"},
+    {"ordinal":7,"concept":"right wall bank","familyId":"side-pockets","intent":"teach the opposite route with a different shape and decision"},
+    {"ordinal":8,"concept":"support choice","familyId":"twin-supports","intent":"present two supports with meaningfully different removal outcomes"},
+    {"ordinal":9,"concept":"two-step planning","familyId":"cross-bridge","intent":"require a useful setup shot before the finishing shot"},
+    {"ordinal":10,"concept":"small synthesis","familyId":"alternating-columns","intent":"combine established aim, swap and support concepts without introducing a new rule"}
+  ],
+  "orbitIntroductions": [
+    {"orbit":1,"mechanic":"direct aim, match, swap, falls and first wall banks"},
+    {"orbit":2,"mechanic":"rocks as non-matching supports and side routes"},
+    {"orbit":3,"mechanic":"rescue stars by disconnecting them from the roof"},
+    {"orbit":5,"mechanic":"clear selected colors while ignoring distractors"},
+    {"orbit":8,"mechanic":"one- and two-wall-bank route planning"}
+  ]
+}

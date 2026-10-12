@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bubblenight.local/schema/asset-manifest.schema.json",
+  "title": "Bubble Night packaged asset hashes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["manifestVersion", "schemaVersion", "engineVersion", "contentVersion", "buildStage", "catalogSha256", "files"],
+  "properties": {
+    "manifestVersion": {"const": 1},
+    "schemaVersion": {"const": 1},
+    "engineVersion": {"type": "integer", "minimum": 1},
+    "contentVersion": {"type": "string", "minLength": 1},
+    "buildStage": {"enum": ["slice", "pilot", "full"]},
+    "catalogSha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "files": {"type": "array", "items": {"$ref": "#/$defs/file"}}
+  },
+  "$defs": {
+    "file": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"type": "string", "pattern": "^(catalog\\.json|levels/level-[0-9]{4}/(easy|medium|hard)\\.json)$"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    }
+  }
+}

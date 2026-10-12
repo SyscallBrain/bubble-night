@@ -1,0 +1,409 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": 1,
+  "id": "level-0042",
+  "ordinal": 42,
+  "orbitId": "orbit-01",
+  "titlePt": "Ilhas altas",
+  "familyId": "anchored-islands",
+  "learningTags": [
+    "anchor-cut"
+  ],
+  "revision": 2,
+  "authorNotes": "Authored candidate; difficulty and teaching intent await replay and human review.",
+  "variants": {
+    "easy": {
+      "seedHex": "0bcef0726a102cc1",
+      "board": [
+        {
+          "r": 0,
+          "c": 0,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 8,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 5,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 8,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 14,
+      "threeStarMaxShots": 11,
+      "twoStarMaxShots": 13,
+      "expectedMetrics": {
+        "familyId": "anchored-islands",
+        "minBounces": 0
+      }
+    },
+    "medium": {
+      "seedHex": "3ab185411bf10624",
+      "board": [
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 11,
+      "threeStarMaxShots": 9,
+      "twoStarMaxShots": 10,
+      "expectedMetrics": {
+        "familyId": "anchored-islands",
+        "minBounces": 0
+      }
+    },
+    "hard": {
+      "seedHex": "1baa22ebc0f251aa",
+      "board": [
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 3,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 3,
+          "c": 4,
+          "kind": "color",
+          "color": "orange"
+        },
+        {
+          "r": 4,
+          "c": 0,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 4,
+          "c": 1,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 4,
+          "c": 3,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 4,
+          "c": 4,
+          "kind": "color",
+          "color": "pink"
+        },
+        {
+          "r": 5,
+          "c": 0,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 5,
+          "c": 2,
+          "kind": "color",
+          "color": "cyan"
+        },
+        {
+          "r": 5,
+          "c": 4,
+          "kind": "color",
+          "color": "cyan"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 9,
+      "threeStarMaxShots": 8,
+      "twoStarMaxShots": 9,
+      "expectedMetrics": {
+        "familyId": "anchored-islands",
+        "minBounces": 0
+      }
+    }
+  }
+}

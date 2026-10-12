@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "baseId": "level-0463",
+  "difficulty": "easy",
+  "levelRevision": 4,
+  "levelSemanticHash": "3bbdfa74c629d84e3b0cda343736a71d2d7fbc2efcccdeb229f4cc9fa224c3a6",
+  "engineVersion": 1,
+  "seedHex": "d8fdf037d2aed41f",
+  "initialStateHash": "132d688935a3cdf227326f4bce02bb79804fa27320f2d0825394d562983dca9e",
+  "steps": [
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": 1000,
+      "afterStateHash": "3368d4548edb67dae226c1860f06e14266a012f450960e2fa13be239d8525420",
+      "metrics": {
+        "target": {
+          "r": 4,
+          "c": 4
+        },
+        "bounces": 0,
+        "matchedCells": 6,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 3764
+      }
+    },
+    {
+      "swapBefore": true,
+      "angleMilliDegrees": 1200,
+      "afterStateHash": "fa5c84cdec02e46c7b3f0693038ac04c028c56616ebf8d01dd4739eb39768e9f",
+      "metrics": {
+        "target": {
+          "r": 2,
+          "c": 4
+        },
+        "bounces": 0,
+        "matchedCells": 6,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 2358
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": 2950,
+      "afterStateHash": "889d1c8476c4c1eed69496503b7cb4c938a2fa61313a0ac6717dd9ac9b729592",
+      "metrics": {
+        "target": {
+          "r": 3,
+          "c": 4
+        },
+        "bounces": 0,
+        "matchedCells": 5,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 2443
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": -1700,
+      "afterStateHash": "a8ba17062cc3a173ee91bfb7e4c9a881d4b4c438c7ae56121f49778516b4cfcc",
+      "metrics": {
+        "target": {
+          "r": 1,
+          "c": 3
+        },
+        "bounces": 0,
+        "matchedCells": 5,
+        "droppedCells": 7,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 3131
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": 9350,
+      "afterStateHash": "e794a15d63b3df7803f24e331a2de9b11f85ab3baf8b29d7ea34dad03106f48d",
+      "metrics": {
+        "target": {
+          "r": 2,
+          "c": 6
+        },
+        "bounces": 0,
+        "matchedCells": 6,
+        "droppedCells": 1,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 4000
+      }
+    }
+  ],
+  "finalStateHash": "e794a15d63b3df7803f24e331a2de9b11f85ab3baf8b29d7ea34dad03106f48d",
+  "shotsUsed": 5,
+  "score": 2330,
+  "rescuedStars": 0,
+  "outcome": "WON",
+  "aimWindows": [
+    {
+      "stepIndex": 0,
+      "lowerMilliDegrees": -764,
+      "upperMilliDegrees": 3000,
+      "testedWidthMilliDegrees": 3764
+    },
+    {
+      "stepIndex": 1,
+      "lowerMilliDegrees": 1,
+      "upperMilliDegrees": 2359,
+      "testedWidthMilliDegrees": 2358
+    },
+    {
+      "stepIndex": 2,
+      "lowerMilliDegrees": 2507,
+      "upperMilliDegrees": 4950,
+      "testedWidthMilliDegrees": 2443
+    },
+    {
+      "stepIndex": 3,
+      "lowerMilliDegrees": -3700,
+      "upperMilliDegrees": -569,
+      "testedWidthMilliDegrees": 3131
+    },
+    {
+      "stepIndex": 4,
+      "lowerMilliDegrees": 7350,
+      "upperMilliDegrees": 11350,
+      "testedWidthMilliDegrees": 4000
+    }
+  ]
+}

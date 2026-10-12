@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "engineVersion": 1,
+  "id": "level-0002",
+  "ordinal": 2,
+  "orbitId": "orbit-01",
+  "titlePt": "Grupo ligado",
+  "familyId": "shallow-arch",
+  "learningTags": [
+    "connected-match"
+  ],
+  "revision": 2,
+  "authorNotes": "Authored candidate; difficulty and teaching intent await replay and human review.",
+  "variants": {
+    "easy": {
+      "seedHex": "5f7ba27030ef3ad2",
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 10,
+      "threeStarMaxShots": 5,
+      "twoStarMaxShots": 7,
+      "expectedMetrics": {
+        "familyId": "shallow-arch",
+        "minBounces": 0
+      }
+    },
+    "medium": {
+      "seedHex": "f61b6aa63fe0685e",
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 7,
+      "threeStarMaxShots": 4,
+      "twoStarMaxShots": 5,
+      "expectedMetrics": {
+        "familyId": "shallow-arch",
+        "minBounces": 0
+      }
+    },
+    "hard": {
+      "seedHex": "6c8e1537a96cf070",
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "maxShots": 5,
+      "threeStarMaxShots": 3,
+      "twoStarMaxShots": 4,
+      "expectedMetrics": {
+        "familyId": "shallow-arch",
+        "minBounces": 0
+      }
+    }
+  }
+}

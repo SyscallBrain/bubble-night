@@ -1,0 +1,1909 @@
+{
+  "templateSetVersion": 1,
+  "engineVersion": 1,
+  "status": "candidate-blueprints-require-core-replay",
+  "levels": [
+    {
+      "ordinal": 1,
+      "titlePt": "Primeiro disparo",
+      "familyId": "open-corridor",
+      "learningTags": [
+        "direct-aim"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 2,
+      "titlePt": "Grupo ligado",
+      "familyId": "shallow-arch",
+      "learningTags": [
+        "connected-match"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 3,
+      "titlePt": "Duas cores",
+      "familyId": "staircase",
+      "learningTags": [
+        "color-choice"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 3,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 3,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 4,
+      "titlePt": "Queda livre",
+      "familyId": "anchored-islands",
+      "learningTags": [
+        "unsupported-fall"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 5,
+      "titlePt": "Escolhe a próxima",
+      "familyId": "twin-supports",
+      "learningTags": [
+        "free-swap"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 6,
+      "titlePt": "Rota pela esquerda",
+      "familyId": "side-pockets",
+      "learningTags": [
+        "left-wall-bank"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 1,
+      "board": [
+        {
+          "r": 0,
+          "c": 0,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "kind": "color",
+          "color": "purple"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 0,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 1,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 0,
+            "c": 7,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 0,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 1,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 0,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 1,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 0,
+            "c": 7,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 0,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 1,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 0,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 1,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 0,
+            "c": 7,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 0,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 1,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 0,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "kind": "color",
+            "color": "purple"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 7,
+      "titlePt": "Rota pela direita",
+      "familyId": "side-pockets",
+      "learningTags": [
+        "right-wall-bank"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 1,
+      "board": [
+        {
+          "r": 0,
+          "c": 1,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 7,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 2,
+          "c": 7,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 8,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 1,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 7,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 7,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 7,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 8,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 1,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 7,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 7,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 6,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 7,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 8,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 1,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 7,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 7,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 2,
+            "c": 7,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 8,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 3,
+            "c": 6,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 3,
+            "c": 7,
+            "kind": "color",
+            "color": "green"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 8,
+      "titlePt": "Dois apoios",
+      "familyId": "cross-bridge",
+      "learningTags": [
+        "support-choice"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 5,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 6,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "green"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 5,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 6,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 9,
+      "titlePt": "Prepara e conclui",
+      "familyId": "spine",
+      "learningTags": [
+        "two-step-plan"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 5,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 3,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 3,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 3,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          }
+        ]
+      }
+    },
+    {
+      "ordinal": 10,
+      "titlePt": "Pequena síntese",
+      "familyId": "alternating-columns",
+      "learningTags": [
+        "aim",
+        "swap",
+        "support"
+      ],
+      "objective": {
+        "type": "clear_colors"
+      },
+      "minBounces": 0,
+      "board": [
+        {
+          "r": 0,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 0,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 1,
+          "c": 4,
+          "kind": "color",
+          "color": "green"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "kind": "color",
+          "color": "blue"
+        },
+        {
+          "r": 2,
+          "c": 4,
+          "kind": "color",
+          "color": "purple"
+        }
+      ],
+      "difficultyBoards": {
+        "easy": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "medium": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          }
+        ],
+        "hard": [
+          {
+            "r": 0,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 0,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 0,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "kind": "color",
+            "color": "green"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 2,
+            "c": 4,
+            "kind": "color",
+            "color": "purple"
+          },
+          {
+            "r": 3,
+            "c": 2,
+            "kind": "color",
+            "color": "blue"
+          },
+          {
+            "r": 3,
+            "c": 3,
+            "kind": "color",
+            "color": "purple"
+          }
+        ]
+      }
+    }
+  ]
+}

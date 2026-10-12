@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "baseId": "level-0026",
+  "difficulty": "medium",
+  "levelRevision": 2,
+  "levelSemanticHash": "48862cf7058d462f3bd7a9c5d2861a97807d2aa04a3ccec0dfbfa2fd77cf94b5",
+  "engineVersion": 1,
+  "seedHex": "cc300ccd3546ba71",
+  "initialStateHash": "95ba7ecb94c895ded10f3c0c0f4056d5dd40d4a038a0d1c43018dba150c94f4e",
+  "steps": [
+    {
+      "swapBefore": true,
+      "angleMilliDegrees": 51800,
+      "afterStateHash": "8220d96725ce33607d3ff060758f42682976a3c7a978e204e4705b0a7ebd71bc",
+      "metrics": {
+        "target": {
+          "r": 0,
+          "c": 6
+        },
+        "bounces": 2,
+        "matchedCells": 3,
+        "droppedCells": 9,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 1155
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": 8150,
+      "afterStateHash": "6b565ce600e6ca094be8a7e4100c9d59fa4ce14b429b01e6cdadebd0ee764400",
+      "metrics": {
+        "target": {
+          "r": 0,
+          "c": 6
+        },
+        "bounces": 0,
+        "matchedCells": 0,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 2000
+      }
+    },
+    {
+      "swapBefore": false,
+      "angleMilliDegrees": 12500,
+      "afterStateHash": "260194e2aa466401b040aad66f6a04cdcb48b0ec1e28c0b934153955e68f991b",
+      "metrics": {
+        "target": {
+          "r": 0,
+          "c": 7
+        },
+        "bounces": 0,
+        "matchedCells": 3,
+        "droppedCells": 0,
+        "rescuedStars": 0,
+        "testedAimWindowMilliDegrees": 1083
+      }
+    }
+  ],
+  "finalStateHash": "260194e2aa466401b040aad66f6a04cdcb48b0ec1e28c0b934153955e68f991b",
+  "shotsUsed": 3,
+  "score": 1275,
+  "rescuedStars": 0,
+  "outcome": "WON",
+  "aimWindows": [
+    {
+      "stepIndex": 0,
+      "lowerMilliDegrees": 51341,
+      "upperMilliDegrees": 52496,
+      "testedWidthMilliDegrees": 1155
+    },
+    {
+      "stepIndex": 1,
+      "lowerMilliDegrees": 7150,
+      "upperMilliDegrees": 9150,
+      "testedWidthMilliDegrees": 2000
+    },
+    {
+      "stepIndex": 2,
+      "lowerMilliDegrees": 11986,
+      "upperMilliDegrees": 13069,
+      "testedWidthMilliDegrees": 1083
+    }
+  ]
+}

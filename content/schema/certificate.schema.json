@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bubblenight.local/schema/certificate.schema.json",
+  "title": "Bubble Night replay certificate",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "baseId", "difficulty", "levelRevision", "levelSemanticHash", "engineVersion", "seedHex", "initialStateHash", "steps", "finalStateHash", "shotsUsed", "score", "rescuedStars", "outcome"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "baseId": {"type": "string", "pattern": "^level-(?!0000)[0-9]{4}$"},
+    "difficulty": {"enum": ["easy", "medium", "hard"]},
+    "levelRevision": {"type": "integer", "minimum": 1},
+    "levelSemanticHash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "engineVersion": {"type": "integer", "minimum": 1},
+    "seedHex": {"type": "string", "pattern": "^[0-9a-fA-F]{16}$"},
+    "initialStateHash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "steps": {"type": "array", "minItems": 1, "maxItems": 100, "items": {"$ref": "#/$defs/step"}},
+    "finalStateHash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "shotsUsed": {"type": "integer", "minimum": 1, "maximum": 100},
+    "score": {"type": "integer", "minimum": 0},
+    "rescuedStars": {"type": "integer", "minimum": 0, "maximum": 119},
+    "outcome": {"const": "WON"},
+    "aimWindows": {"type": "array", "items": {"$ref": "#/$defs/aimWindow"}}
+  },
+  "$defs": {
+    "step": {
+      "type": "object", "additionalProperties": false,
+      "required": ["swapBefore", "angleMilliDegrees", "afterStateHash", "metrics"],
+      "properties": {
+        "swapBefore": {"type": "boolean"},
+        "angleMilliDegrees": {"type": "integer", "minimum": -75000, "maximum": 75000},
+        "afterStateHash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+        "metrics": {"$ref": "#/$defs/shotMetrics"}
+      }
+    },
+    "shotMetrics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["target", "bounces", "matchedCells", "droppedCells", "rescuedStars", "testedAimWindowMilliDegrees"],
+      "properties": {
+        "target": {"type": "object", "additionalProperties": false, "required": ["r", "c"], "properties": {"r": {"type": "integer", "minimum": 0, "maximum": 13}, "c": {"type": "integer", "minimum": 0, "maximum": 8}}},
+        "bounces": {"type": "integer", "minimum": 0, "maximum": 8},
+        "matchedCells": {"type": "integer", "minimum": 0, "maximum": 119},
+        "droppedCells": {"type": "integer", "minimum": 0, "maximum": 119},
+        "rescuedStars": {"type": "integer", "minimum": 0, "maximum": 119},
+        "testedAimWindowMilliDegrees": {"type": "integer", "minimum": 0, "maximum": 150000}
+      }
+    },
+    "aimWindow": {
+      "type": "object", "additionalProperties": false,
+      "required": ["stepIndex", "lowerMilliDegrees", "upperMilliDegrees", "testedWidthMilliDegrees"],
+      "properties": {
+        "stepIndex": {"type": "integer", "minimum": 0, "maximum": 99},
+        "lowerMilliDegrees": {"type": "integer", "minimum": -75000, "maximum": 75000},
+        "upperMilliDegrees": {"type": "integer", "minimum": -75000, "maximum": 75000},
+        "testedWidthMilliDegrees": {"type": "integer", "minimum": 0, "maximum": 150000}
+      }
+    }
+  }
+}

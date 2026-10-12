@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Bubble Night</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="cd_back">Back</string>
+    <string name="label_level">Level %d</string>
+    <string name="label_wave">Wave %d</string>
+    <string name="label_zen_mode">Zen mode</string>
+    <string name="label_daily">Daily · %s</string>
+    <string name="label_daily_challenge_date">Daily challenge · %s</string>
+    <string name="points_value">%s points</string>
+    <string name="points_unit">points</string>
+    <string name="shot_unit_one">shot</string>
+    <string name="shot_unit_other">shots</string>
+    <string name="level_title_generic">Orbit %1$d · level %2$d</string>
+    <string name="orbit_name_fallback">Constellations</string>
+    <string name="two_items">%1$s and %2$s</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="score_factor_easy">×1</string>
+    <string name="score_factor_medium">×1.5</string>
+    <string name="score_factor_hard">×2</string>
+    <string name="aim_guide_easy">Full trajectory</string>
+    <string name="aim_guide_medium">Up to the first bounce</string>
+    <string name="aim_guide_hard">Short aim</string>
+    <string name="difficulty_summary_easy">More shots, fewer colors and full aim.</string>
+    <string name="difficulty_summary_medium">Counted shots and aim up to the first bounce.</string>
+    <string name="difficulty_summary_hard">Almost no margin, more colors and only the start of the aim.</string>
+    <string name="difficulty_summary_with_points">%1$s Points %2$s.</string>
+    <string name="cd_difficulty">Difficulty %s</string>
+    <string name="cd_difficulty_selected">Difficulty %s, selected</string>
+    <string name="loading_constellations">Preparing the constellations…</string>
+    <string name="loading_resuming_game">Resuming the game…</string>
+    <string name="loading_level">Preparing the level…</string>
+    <string name="loading_opening_constellation">Opening the constellation…</string>
+    <string name="loading_resuming_daily">Resuming the challenge…</string>
+    <string name="loading_daily">Preparing the daily challenge…</string>
+    <string name="loading_first_wave">Preparing the first wave…</string>
+    <string name="loading_next_wave">Preparing the next wave…</string>
+    <string name="loading_saving_move">Saving the move…</string>
+    <string name="loading_checking_backup">Checking the backup…</string>
+    <string name="loading_restoring">Restoring…</string>
+    <string name="error_recovered_backup">Your progress was restored from the previous copy. The last move may have been lost.</string>
+    <string name="error_save_pending">The move is still unsaved. Tap Try saving before continuing.</string>
+    <string name="error_action_failed">Could not finish: %s</string>
+    <string name="error_save_generic">save error</string>
+    <string name="error_save_failed">Could not save the move. It stays pending; tap Try saving to try again.</string>
+    <string name="notice_level_locked">Finish the previous level to open this constellation.</string>
+    <string name="notice_move_saved">Move saved. You can carry on.</string>
+    <string name="notice_test_mode_on">Test mode: every level is open.</string>
+    <string name="notice_test_mode_off">Test mode off.</string>
+    <string name="aim_no_room">No room in that direction. Adjust your aim.</string>
+    <string name="target_description">row %1$d, position %2$d</string>
+    <string name="confirm_levels_updated_title">Levels updated</string>
+    <string name="confirm_levels_updated_message">The levels in this run have changed. Start a new run; your record is kept.</string>
+    <string name="action_new_run">New run</string>
+    <string name="confirm_level_updated_title">Level updated</string>
+    <string name="confirm_level_updated_message">This level has changed. Restarting keeps every star you have earned.</string>
+    <string name="action_reset_level">Restart</string>
+    <string name="confirm_start_level_title">Start this level?</string>
+    <string name="confirm_start_level_message">Your current campaign game will be replaced. The stars you have earned are kept.</string>
+    <string name="action_start">Start</string>
+    <string name="confirm_new_free_title">New free game?</string>
+    <string name="confirm_replace_free_message">Your saved free play session will be replaced. Your record is kept.</string>
+    <string name="action_new_game">New game</string>
+    <string name="confirm_start_board_title">Start this board?</string>
+    <string name="confirm_start_daily_title">Start the challenge?</string>
+    <string name="confirm_start_daily_message">Your current daily game will be replaced. Earlier results are kept.</string>
+    <string name="confirm_restart_title">Restart?</string>
+    <string name="confirm_restart_run_message">You will start a new run.</string>
+    <string name="confirm_restart_level_message">You will go back to the start of this level.</string>
+    <string name="action_restart">Restart</string>
+    <string name="confirm_restore_title">Restore progress?</string>
+    <string name="action_restore">Restore</string>
+    <string name="objective_clear_all">Clear every bubble</string>
+    <string name="objective_rescue_stars">Free the stars</string>
+    <string name="objective_clear_set">Clear %s</string>
+    <string name="tip_rock_title">Rock</string>
+    <string name="tip_rock_text">No color pops it. It falls once it is no longer attached to the ceiling.</string>
+    <string name="tip_star_title">Star</string>
+    <string name="tip_star_text">Free it by making it fall: pop the bubbles that hold it to the ceiling. Rescue them all to win.</string>
+    <string name="tip_color_set_title">Target colors</string>
+    <string name="tip_color_set_text">You only need to clear %s. The other colors can stay on the board.</string>
+    <string name="instruction_aim_precise">Drag to aim and tap Shoot when you are ready. The bubble sticks at the first contact.</string>
+    <string name="instruction_aim_drag">Drag to aim and lift your finger to shoot. To cancel, drag off the board before lifting.</string>
+    <string name="instruction_match">Connect three or more bubbles of the same color to clear them. Swapping bubbles is free and costs no shots.</string>
+    <string name="instruction_drop">Bubbles that lose their link to the ceiling fall. Look for the shot that drops a whole group.</string>
+    <string name="score_popped">Bubbles popped</string>
+    <string name="score_dropped">Bubbles dropped</string>
+    <string name="score_rescued">Stars rescued</string>
+    <string name="score_streak">Streaks</string>
+    <string name="score_unused">Unused shots</string>
+    <string name="result_won_title">Constellation complete</string>
+    <string name="result_zen_title">A new trajectory</string>
+    <string name="result_lost_title">Try another trajectory</string>
+    <string name="result_daily_won">Daily challenge complete. Replay it to improve your result.</string>
+    <string name="result_wave_won">Wave %d complete</string>
+    <string name="result_campaign_finished">You have completed every available constellation.</string>
+    <string name="result_orbit_done">Orbit %s complete!</string>
+    <string name="result_won">Every shot lit the way.</string>
+    <string name="result_no_shots">Out of shots. Try another sequence.</string>
+    <string name="result_no_combinations">No combinations left.</string>
+    <string name="result_overflow">The bubbles reached the limit.</string>
+    <string name="result_orbit_summary">%1$d / %2$d stars. Go back to the levels to light up the rest.</string>
+    <string name="result_shots_used">%1$d of %2$d shots used</string>
+    <string name="result_difficulty_factor">%1$s difficulty: points %2$s</string>
+    <string name="game_over">Game over</string>
+    <string name="action_try_again">Try again</string>
+    <string name="action_next_wave">Next wave</string>
+    <string name="action_next_level">Next level</string>
+    <string name="action_map">Map</string>
+    <string name="action_replay_level">Replay level</string>
+    <string name="action_choose_challenge">Choose a challenge</string>
+    <string name="action_orbit_map">Orbit map</string>
+    <string name="action_share_result">Share result</string>
+    <string name="action_back_to_start">Back to start</string>
+    <string name="action_exit_to_start">Exit to start</string>
+    <string name="action_other_board">Another board</string>
+    <string name="action_continue">Continue</string>
+    <string name="cd_stars_of_three">%d of 3 stars</string>
+    <string name="run_total">Run total</string>
+    <string name="score_label">Score</string>
+    <string name="new_record">New record</string>
+    <string name="record">Record</string>
+    <string name="best">Best</string>
+    <string name="this_wave">This wave</string>
+    <string name="achievement_first_win_title">First constellation</string>
+    <string name="achievement_first_win_text">Finish the first level.</string>
+    <string name="achievement_first_ricochet_title">Ricochet</string>
+    <string name="achievement_first_ricochet_text">Clear a group with a bubble that bounced off the wall.</string>
+    <string name="achievement_drop_10_title">Bubble shower</string>
+    <string name="achievement_drop_10_text">Drop 10 bubbles with a single shot.</string>
+    <string name="achievement_first_orbit_title">Full orbit</string>
+    <string name="achievement_first_orbit_text">Finish all 50 levels of an orbit.</string>
+    <string name="achievement_levels_100_title">A hundred constellations</string>
+    <string name="achievement_levels_100_text">Finish 100 levels on one difficulty.</string>
+    <string name="cd_achievement_unlocked">%1$s, unlocked. %2$s</string>
+    <string name="cd_achievement_locked">%1$s, locked. %2$s</string>
+    <string name="setting_sound">Sound</string>
+    <string name="setting_vibration">Vibration</string>
+    <string name="setting_symbols">Symbols on bubbles</string>
+    <string name="setting_precise_aim">Precise aim controls</string>
+    <string name="setting_full_aim_guide">Full aim guide on every difficulty</string>
+    <string name="setting_left_handed">Next bubble on the left</string>
+    <string name="setting_reduced_motion">Reduce motion</string>
+    <string name="settings_local_data">Local data</string>
+    <string name="settings_export">Export progress</string>
+    <string name="settings_export_sub">Save a local copy</string>
+    <string name="settings_import">Import progress</string>
+    <string name="settings_import_sub">Restore a copy</string>
+    <string name="settings_diagnostics">Export diagnostics</string>
+    <string name="settings_diagnostics_sub">Save the last recorded error</string>
+    <string name="settings_copies_hint">Copies are chosen on the device.</string>
+    <string name="settings_version">Version %s</string>
+    <string name="settings_version_unlocked">Version %s · every level open</string>
+    <string name="home_tagline">A constellation of challenges</string>
+    <string name="home_campaign">CAMPAIGN</string>
+    <string name="cd_open_orbit_map">Open the %s orbit map</string>
+    <string name="progress_completed_of">%1$d / %2$d completed</string>
+    <string name="progress_completed">%d completed</string>
+    <string name="progress_first_run">Your adventure starts here</string>
+    <string name="home_start_adventure">Start adventure</string>
+    <string name="home_resume_campaign">Resume campaign</string>
+    <string name="home_continue_campaign">Continue campaign</string>
+    <string name="home_first_level_hint">First level · no time limit</string>
+    <string name="home_saved_game">Saved game · %s</string>
+    <string name="home_next_challenge">Next challenge · %s</string>
+    <string name="menu_resume_free">Resume free play</string>
+    <string name="menu_resume_free_sub">Continue your saved session</string>
+    <string name="menu_daily">Daily challenge</string>
+    <string name="menu_daily_sub">One constellation a day · works offline</string>
+    <string name="menu_free">Free play</string>
+    <string name="menu_free_sub">Choose Endless or Zen</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_settings_sub">Sound and accessibility</string>
+    <string name="menu_statistics">Statistics</string>
+    <string name="menu_statistics_sub">Your journey</string>
+    <string name="menu_credits">Credits</string>
+    <string name="cd_previous_orbit">Previous orbit</string>
+    <string name="cd_next_orbit">Next orbit</string>
+    <string name="map_unfinished_stars">Stars to earn</string>
+    <string name="map_orbit_complete">Orbit complete · %1$d / %2$d stars</string>
+    <string name="map_no_unfinished">No completed level in this orbit has stars left to earn yet.</string>
+    <string name="map_unavailable">This orbit map is not available yet.</string>
+    <string name="map_play_level">Play level %d</string>
+    <string name="map_locked">Locked</string>
+    <string name="cd_level_locked">Level %d, locked</string>
+    <string name="cd_level_available">Level %d, available</string>
+    <string name="prep_title">Get ready</string>
+    <string name="prep_ready">Ready to play?</string>
+    <string name="prep_default_objective">Match the bubbles and find the right route.</string>
+    <string name="prep_objective">Objective</string>
+    <string name="prep_default_goal">Complete the challenge</string>
+    <string name="prep_difficulty">Difficulty</string>
+    <string name="prep_star_finish">finish the level</string>
+    <string name="prep_aim">Aim: %1$s · points %2$s</string>
+    <string name="prep_your_best">Your best</string>
+    <string name="prep_best_points">· %s points</string>
+    <string name="prep_how_to_play">How to play</string>
+    <string name="prep_new">NEW</string>
+    <string name="prep_start">Start level</string>
+    <string name="free_intro">Choose a difficulty and a mode.</string>
+    <string name="free_dev_catalog">Development catalog (pilot): waves repeat the available levels.</string>
+    <string name="mode_endless">Endless</string>
+    <string name="mode_endless_desc">Advance through waves and try to beat your record.</string>
+    <string name="mode_endless_record">Record %1$s · %2$s</string>
+    <string name="mode_zen">Zen</string>
+    <string name="mode_zen_desc">Play at your own pace, with no shot limit.</string>
+    <string name="mode_zen_session">Session available</string>
+    <string name="mode_zen_unranked">Unranked</string>
+    <string name="free_footer">Free play does not change your campaign progress.</string>
+    <string name="daily_intro">One constellation for each difficulty. The challenge changes at midnight, following the device date. Replay it to improve your result.</string>
+    <string name="daily_today">Today\'s constellation · level %d</string>
+    <string name="daily_waiting">Your challenge is waiting.</string>
+    <string name="daily_best">Best result: %s points</string>
+    <string name="daily_resume">Resume challenge</string>
+    <string name="daily_replay">Replay challenge</string>
+    <string name="daily_play">Play challenge</string>
+    <string name="daily_footer">No time limit. Results are kept apart from the campaign and free play.</string>
+    <string name="zen_title">Zen boards</string>
+    <string name="zen_favorites">Favorites in this orbit</string>
+    <string name="zen_no_favorites">Tap the star next to a board to add it to your favorites.</string>
+    <string name="cd_zen_unfavorite">Remove level %d from favorites</string>
+    <string name="cd_zen_favorite">Add level %d to favorites</string>
+    <string name="zen_footer">Every board is available in Zen. No score and no shot limit.</string>
+    <string name="stats_levels">Levels</string>
+    <string name="stats_stars">Stars</string>
+    <string name="stats_wins">Wins</string>
+    <string name="stats_losses">Losses</string>
+    <string name="stats_shots">Shots</string>
+    <string name="stats_bubbles">Bubbles cleared</string>
+    <string name="stats_campaign_points">Campaign points</string>
+    <string name="stats_endless_record">Endless record</string>
+    <string name="stats_achievements">Achievements · %1$d / %2$d</string>
+    <string name="credits_description">A bubble shooter under the night sky. Travel through twelve orbits and 600 constellations, each in Easy, Medium and Hard, or play without end in Endless and Zen modes. Works offline, with no ads and no purchases.</string>
+    <string name="retry_load">Try loading again</string>
+    <string name="retry_save">Try saving</string>
+    <string name="game_preparing_board">Preparing the board…</string>
+    <string name="pause_title">Paused</string>
+    <string name="cd_pause">Pause</string>
+    <string name="pause_save_pending">The last move is waiting to be saved. Use Try saving to continue.</string>
+    <string name="pause_message">The game is paused. Your moves are saved automatically.</string>
+    <string name="pause_in_level">In this level</string>
+    <string name="board_pieces_title">Board pieces</string>
+    <string name="board_piece_line">Row %1$d, position %2$d: %3$s</string>
+    <string name="back_to_game">Back to the game</string>
+    <string name="hud_endless">Endless · %s</string>
+    <string name="cd_board_pieces">Inspect the board pieces</string>
+    <string name="hud_danger">The bubbles are close to the limit</string>
+    <string name="hud_one_star">Finish to earn 1 star</string>
+    <string name="hud_record">Record %s</string>
+    <string name="hud_streak">streak ×%d</string>
+    <string name="tutorial_aim_precise">Practice 1/3: adjust the aim and tap Shoot. Practice costs no shots.</string>
+    <string name="tutorial_aim_drag">Practice 1/3: drag to aim and lift to try it. Leave the board to cancel. It costs no shots.</string>
+    <string name="tutorial_swap">Practice 2/3: tap Swap bubbles to try the free swap.</string>
+    <string name="tutorial_match">Practice 3/3: connect three of the same color. Bubbles with no link to the ceiling fall. You are ready!</string>
+    <string name="tutorial_start">Start game</string>
+    <string name="tutorial_skip">Skip practice</string>
+    <string name="cd_points_streak">%s points, streak active</string>
+    <string name="cd_unlimited_shots">Unlimited shots</string>
+    <string name="cd_shots_left">%1$d of %2$d shots left</string>
+    <string name="cd_board">Board %1$s. %2$s</string>
+    <string name="board_hint_precise">Swipe to aim and tap Shoot.</string>
+    <string name="board_hint_drag">Swipe to aim and lift to shoot. Leave the board to cancel.</string>
+    <string name="a11y_aim_left">Adjust aim one degree left</string>
+    <string name="a11y_aim_right">Adjust aim one degree right</string>
+    <string name="swap_bubbles">Swap bubbles</string>
+    <string name="swap_short">Swap</string>
+    <string name="shoot">Shoot</string>
+    <string name="shoot_bubble">Shoot bubble</string>
+    <string name="aim_left">Left</string>
+    <string name="aim_right">Right</string>
+    <string name="cd_fine_aim">Adjust aim by 0.5 degrees: %s</string>
+    <string name="a11y_fine_aim">Fine adjustment of 0.1 degrees</string>
+    <string name="next_bubble_label">NEXT</string>
+    <string name="unused_shots_float">unused shots</string>
+    <string name="bubble_rock">rock</string>
+    <string name="bubble_star">rescue star</string>
+    <string name="bubble_blue">blue, circle</string>
+    <string name="bubble_purple">purple, star</string>
+    <string name="bubble_green">green, triangle</string>
+    <string name="bubble_orange">orange, square</string>
+    <string name="bubble_pink">pink, diamond</string>
+    <string name="bubble_cyan">cyan, cross</string>
+    <string name="bubble_generic">bubble</string>
+    <string name="bubble_unavailable">unavailable</string>
+    <string name="board_state">Current bubble: %1$s. Next: %2$s. Aim %3$s degrees. %4$s</string>
+    <string name="board_target">Target: %s.</string>
+    <string name="board_no_target">No target available in this direction.</string>
+    <string name="error_open_destination">Could not open the destination</string>
+    <string name="error_open_file">Could not open the file</string>
+    <string name="diagnostics_saved">Diagnostics saved. You decide whether to share them.</string>
+    <string name="diagnostics_failed">Could not export diagnostics: %s</string>
+    <string name="no_error_recorded">No error has been recorded.</string>
+    <string name="share_failed">Could not share the result: %s</string>
+    <string name="backup_saved">Backup saved.</string>
+    <string name="export_failed">Could not export: %s</string>
+    <string name="backup_too_large">The backup is larger than 2 MiB</string>
+    <string name="import_failed">Could not import: %s</string>
+    <string name="share_footer">%s · No internet needed</string>
+    <plurals name="shots_count">
+        <item quantity="one">%d shot</item>
+        <item quantity="other">%d shots</item>
+    </plurals>
+    <plurals name="stars_count">
+        <item quantity="one">%d star</item>
+        <item quantity="other">%d stars</item>
+    </plurals>
+    <plurals name="prep_star_within">
+        <item quantity="one">up to %d shot</item>
+        <item quantity="other">up to %d shots</item>
+    </plurals>
+    <plurals name="hud_three_stars">
+        <item quantity="one">3 stars if you finish in %d shot</item>
+        <item quantity="other">3 stars if you finish in %d shots</item>
+    </plurals>
+    <plurals name="hud_two_stars">
+        <item quantity="one">2 stars if you finish in %d shot</item>
+        <item quantity="other">2 stars if you finish in %d shots</item>
+    </plurals>
+    <plurals name="cd_stars_potential">
+        <item quantity="one">You can still earn %d star</item>
+        <item quantity="other">You can still earn %d stars</item>
+    </plurals>
+    <plurals name="confirm_restore_message">
+        <item quantity="one">The backup has %d completed level across the three difficulties. It will replace your current progress; a copy of the previous progress is kept.</item>
+        <item quantity="other">The backup has %d completed levels across the three difficulties. It will replace your current progress; a copy of the previous progress is kept.</item>
+    </plurals>
+    <string-array name="orbit_names">
+        <item>First Sky</item>
+        <item>Lunar Valley</item>
+        <item>Star Garden</item>
+        <item>Asteroid Belt</item>
+        <item>Violet Aurora</item>
+        <item>Sea of Orbits</item>
+        <item>Celestial Bridge</item>
+        <item>Echoes of the Moon</item>
+        <item>Blue Nebula</item>
+        <item>Distant Horizon</item>
+        <item>Northern Crown</item>
+        <item>Last Constellation</item>
+    </string-array>
+    <string-array name="color_names">
+        <item>blue</item>
+        <item>purple</item>
+        <item>green</item>
+        <item>orange</item>
+        <item>pink</item>
+        <item>cyan</item>
+    </string-array>
+    <string-array name="orbit_one_level_titles">
+        <item>First Shot</item>
+        <item>Linked Group</item>
+        <item>Two Colors</item>
+        <item>Free Fall</item>
+        <item>Pick the Next One</item>
+        <item>Left Route</item>
+        <item>Right Route</item>
+        <item>Two Anchors</item>
+        <item>Set Up and Finish</item>
+        <item>Short Recap</item>
+        <item>Two Banks</item>
+        <item>Steps</item>
+        <item>Floating Islands</item>
+        <item>Low Arch</item>
+        <item>Fan</item>
+        <item>Left Pocket</item>
+        <item>Columns</item>
+        <item>Wide Corridor</item>
+        <item>Arch and Pillar</item>
+        <item>Fragile Bridges</item>
+        <item>Crossed Stairs</item>
+        <item>Reverse Fan</item>
+        <item>Right Pocket</item>
+        <item>Full Columns</item>
+        <item>Ramparts</item>
+        <item>Inverted Step</item>
+        <item>Double Arch</item>
+        <item>Islands in a Row</item>
+        <item>Deep Hollow</item>
+        <item>Stepped Fan</item>
+        <item>Offset Columns</item>
+        <item>Central Corridor</item>
+        <item>Short Stairs</item>
+        <item>Inverted Arch</item>
+        <item>Anchored Islands</item>
+        <item>Deep Fan</item>
+        <item>Double Pockets</item>
+        <item>Tall Columns</item>
+        <item>Wide Stairs</item>
+        <item>Portico</item>
+        <item>Small Arch</item>
+        <item>High Islands</item>
+        <item>Side Fan</item>
+        <item>Double Entry</item>
+        <item>Spiral Columns</item>
+        <item>Terrace</item>
+        <item>Arch with an Exit</item>
+        <item>Single Bridge</item>
+        <item>Late Fan</item>
+        <item>Final Gate</item>
+    </string-array>
+</resources>

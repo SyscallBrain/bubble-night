@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bubblenight.local/schema/asset-catalog.schema.json",
+  "title": "Bubble Night packaged asset catalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "engineVersion", "contentVersion", "buildStage", "expectedBaseCount", "expectedVariantCount", "chapters", "levels"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "engineVersion": {"type": "integer", "minimum": 1},
+    "contentVersion": {"type": "string", "minLength": 1},
+    "buildStage": {"enum": ["slice", "pilot", "full"]},
+    "expectedBaseCount": {"type": "integer", "minimum": 1, "maximum": 600},
+    "expectedVariantCount": {"type": "integer", "minimum": 3, "maximum": 1800},
+    "chapters": {"type": "array", "items": {"$ref": "#/$defs/chapter"}},
+    "levels": {"type": "array", "items": {"$ref": "#/$defs/level"}}
+  },
+  "$defs": {
+    "chapter": {
+      "type": "object", "additionalProperties": false,
+      "required": ["orbitId", "firstOrdinal", "lastOrdinal", "titlePt"],
+      "properties": {
+        "orbitId": {"type": "string", "pattern": "^orbit-(0[1-9]|1[0-2])$"},
+        "firstOrdinal": {"type": "integer", "minimum": 1, "maximum": 600},
+        "lastOrdinal": {"type": "integer", "minimum": 1, "maximum": 600},
+        "titlePt": {"type": "string", "minLength": 1, "maxLength": 80}
+      }
+    },
+    "level": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "ordinal", "orbitId", "titlePt", "familyId", "learningTags", "revision", "variants"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^level-(?!0000)[0-9]{4}$"},
+        "ordinal": {"type": "integer", "minimum": 1, "maximum": 600},
+        "orbitId": {"type": "string", "pattern": "^orbit-(0[1-9]|1[0-2])$"},
+        "titlePt": {"type": "string", "minLength": 1, "maxLength": 80},
+        "familyId": {"type": "string", "pattern": "^[a-z][a-z0-9-]{2,47}$"},
+        "learningTags": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "revision": {"type": "integer", "minimum": 1},
+        "variants": {
+          "type": "object", "additionalProperties": false,
+          "required": ["easy", "medium", "hard"],
+          "properties": {
+            "easy": {"$ref": "#/$defs/variantPath"},
+            "medium": {"$ref": "#/$defs/variantPath"},
+            "hard": {"$ref": "#/$defs/variantPath"}
+          }
+        }
+      }
+    },
+    "variantPath": {"type": "string", "pattern": "^levels/level-(?!0000)[0-9]{4}/(easy|medium|hard)\\.json$"}
+  }
+}
