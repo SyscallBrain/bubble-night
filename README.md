@@ -67,22 +67,22 @@ To check it: `apksigner verify --print-certs bubble-night-<version>.apk`
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/home.jpg" width="200" alt="Home screen"><br><sub>Home</sub></td>
-    <td align="center"><img src="docs/screenshots/orbit-map.jpg" width="200" alt="Orbit map"><br><sub>Orbit map</sub></td>
-    <td align="center"><img src="docs/screenshots/aiming.jpg" width="200" alt="Aiming with a wall bounce"><br><sub>Aim guide with bounce</sub></td>
-    <td align="center"><img src="docs/screenshots/scoring.jpg" width="200" alt="Dropping a group of bubbles"><br><sub>Dropping a group</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/01-home.jpg" width="200" alt="Home screen"><br><sub>Home</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/02-orbit-map.jpg" width="200" alt="Orbit map"><br><sub>Orbit map</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/03-aiming.jpg" width="200" alt="Aiming with a wall bounce"><br><sub>Aim guide with bounce</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/04-scoring.jpg" width="200" alt="Dropping a group of bubbles"><br><sub>Dropping a group</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/hard-level.jpg" width="200" alt="Hard level with rocks"><br><sub>Hard level with rocks</sub></td>
-    <td align="center"><img src="docs/screenshots/endless.jpg" width="200" alt="Endless mode"><br><sub>Endless mode</sub></td>
-    <td align="center"><img src="docs/screenshots/pause-tips.jpg" width="200" alt="Pause card with piece tips"><br><sub>Pause and piece tips</sub></td>
-    <td align="center"><img src="docs/screenshots/daily-challenge.jpg" width="200" alt="Daily challenge"><br><sub>Daily challenge</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/05-hard-level.jpg" width="200" alt="Hard level with rocks"><br><sub>Hard level with rocks</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/06-endless.jpg" width="200" alt="Endless mode"><br><sub>Endless mode</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/07-pause-tips.jpg" width="200" alt="Pause card with piece tips"><br><sub>Pause and piece tips</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/08-daily-challenge.jpg" width="200" alt="Daily challenge"><br><sub>Daily challenge</sub></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/free-play.jpg" width="200" alt="Free play modes"><br><sub>Free play</sub></td>
-    <td align="center"><img src="docs/screenshots/zen-boards.jpg" width="200" alt="Zen board picker"><br><sub>Zen boards</sub></td>
-    <td align="center"><img src="docs/screenshots/statistics.jpg" width="200" alt="Statistics and achievements"><br><sub>Statistics</sub></td>
-    <td align="center"><img src="docs/screenshots/settings.jpg" width="200" alt="Settings"><br><sub>Settings</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/09-free-play.jpg" width="200" alt="Free play modes"><br><sub>Free play</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/10-zen-boards.jpg" width="200" alt="Zen board picker"><br><sub>Zen boards</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/11-statistics.jpg" width="200" alt="Statistics and achievements"><br><sub>Statistics</sub></td>
+    <td align="center"><img src="fastlane/metadata/android/en-US/images/phoneScreenshots/12-settings.jpg" width="200" alt="Settings"><br><sub>Settings</sub></td>
   </tr>
 </table>
 
@@ -172,6 +172,7 @@ flowchart LR
 | [`app/`](app) | Jetpack Compose UI, `GameViewModel`, DataStore persistence with recovery copies, backup import and export, audio and haptics, and the crash log. |
 | [`content/`](content) | Source catalog: 600 level files, 1,800 certificates, JSON schemas and authoring templates. |
 | [`tools/`](tools) | Verification, orbit generation and asset authoring scripts. |
+| [`fastlane/`](fastlane/metadata/android) | Store listing (texts, icon, screenshots) used by F-Droid. |
 
 Some design choices:
 

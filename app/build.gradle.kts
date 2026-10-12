@@ -10,8 +10,8 @@ android {
         applicationId = "pt.tiago.bubblenight"
         minSdk = 26
         targetSdk = 36
-        versionCode = 24
-        versionName = "0.14.0"
+        versionCode = 25
+        versionName = "0.14.1"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -33,6 +33,11 @@ android {
             isMinifyEnabled = false
             signingConfig = signingConfigs.findByName("release")
         }
+    }
+    // The dependency metadata block is encrypted for Google Play only; F-Droid rejects it.
+    dependenciesInfo {
+        includeInApk = false
+        includeInBundle = false
     }
     buildFeatures { compose = true; buildConfig = true }
     sourceSets["main"].assets.directories.add(layout.buildDirectory.dir("generated/bubbleAssets").get().asFile.path)

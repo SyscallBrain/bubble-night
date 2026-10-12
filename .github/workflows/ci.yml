@@ -45,6 +45,9 @@ jobs:
       - name: Lint and debug APK
         run: ./gradlew :app:lintDebug :app:assembleDebug --console=plain
 
+      - name: Unsigned release APK (the path F-Droid builds)
+        run: ./gradlew :app:assembleRelease --console=plain
+
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
         with:
