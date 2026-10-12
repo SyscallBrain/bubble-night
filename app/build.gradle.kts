@@ -17,6 +17,23 @@ android {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
     }
+    // Release signing is read from the developer's ~/.gradle/gradle.properties and never committed.
+    // Without these properties (CI, F-Droid) the release build is produced unsigned.
+    val releaseStoreFile = providers.gradleProperty("bubbleNight.release.storeFile").orNull
+    signingConfigs {
+        if (releaseStoreFile != null) create("release") {
+            storeFile = file(releaseStoreFile)
+            storePassword = providers.gradleProperty("bubbleNight.release.storePassword").get()
+            keyAlias = providers.gradleProperty("bubbleNight.release.keyAlias").get()
+            keyPassword = providers.gradleProperty("bubbleNight.release.keyPassword").get()
+        }
+    }
+    buildTypes {
+        release {
+            isMinifyEnabled = false
+            signingConfig = signingConfigs.findByName("release")
+        }
+    }
     buildFeatures { compose = true; buildConfig = true }
     sourceSets["main"].assets.directories.add(layout.buildDirectory.dir("generated/bubbleAssets").get().asFile.path)
 }

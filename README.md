@@ -7,8 +7,8 @@
 **An offline bubble shooter for Android: 600 constellations in three difficulties, every one proven solvable.**
 
 [![CI](https://github.com/SyscallBrain/bubble-night/actions/workflows/ci.yml/badge.svg)](https://github.com/SyscallBrain/bubble-night/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/SyscallBrain/bubble-night?color=BB9AF7)](https://github.com/SyscallBrain/bubble-night/releases/latest)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![Version](https://img.shields.io/badge/version-0.14.0-7AA2F7)
 ![Platform](https://img.shields.io/badge/platform-Android%208.0%2B-3DDC84?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-2.4-7F52FF?logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?logo=jetpackcompose&logoColor=white)
@@ -19,7 +19,7 @@
 ![No ads](https://img.shields.io/badge/ads%20%26%20tracking-none-F7768E)
 ![Languages](https://img.shields.io/badge/languages-English%20%7C%20Portugu%C3%AAs-7DCFFF)
 
-[Features](#features) · [Screenshots](#screenshots) · [How to play](#how-to-play) · [Build](#building-from-source) · [Architecture](#architecture) · [Contributing](#contributing)
+[Download](#download) · [Features](#features) · [Screenshots](#screenshots) · [How to play](#how-to-play) · [Build](#building-from-source) · [Architecture](#architecture) · [Contributing](#contributing)
 
 </div>
 
@@ -32,6 +32,19 @@ Bubble Night is a calm, night-sky take on the classic bubble shooter. You aim, b
 Every level ships with a **solution certificate**. An offline solver plays each of the 1,800 variants with the same Kotlin engine that runs the game, and the build replays those certificates. If a level stops being solvable within its three-star budget, the build fails.
 
 The game has **no network permission**. There are no ads, no accounts and no analytics. Your progress stays on the device unless you export it.
+
+## Download
+
+Get the signed APK from the [latest release](https://github.com/SyscallBrain/bubble-night/releases/latest) and install it on a device running Android 8.0 or newer. You may need to allow installs from your browser or file manager.
+
+Every release lists the SHA-256 of its APK. The APK is signed with this certificate:
+
+```
+CN=Tiago Correia, O=Bubble Night, C=PT
+SHA-256: 11a0e3d30ec90726cbd3d09ba99fc444d9f51dbf76cc041cbab981a49e09706b
+```
+
+To check it: `apksigner verify --print-certs bubble-night-<version>.apk`
 
 ## Features
 
@@ -117,6 +130,8 @@ export ANDROID_HOME=/path/to/android-sdk  # or create local.properties with sdk.
 ./gradlew :app:assembleDebug
 adb install app/build/outputs/apk/debug/app-debug.apk
 ```
+
+`./gradlew :app:assembleRelease` builds an unsigned release APK. To sign it, define `bubbleNight.release.storeFile`, `storePassword`, `keyAlias` and `keyPassword` (all with the `bubbleNight.release.` prefix) in your own `~/.gradle/gradle.properties`. Never commit them.
 
 The first build verifies the level catalog. It validates the 600 levels and replays all 1,800 certificates before packaging the assets, so it takes a few minutes. Later builds reuse the result until something in `content/` changes.
 
