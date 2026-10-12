@@ -10,8 +10,8 @@ android {
         applicationId = "pt.tiago.bubblenight"
         minSdk = 26
         targetSdk = 36
-        versionCode = 25
-        versionName = "0.14.1"
+        versionCode = 26
+        versionName = "0.14.2"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
@@ -32,6 +32,8 @@ android {
         release {
             isMinifyEnabled = false
             signingConfig = signingConfigs.findByName("release")
+            // Keep the git revision out of the APK so release builds are reproducible from source.
+            vcsInfo.include = false
         }
     }
     // The dependency metadata block is encrypted for Google Play only; F-Droid rejects it.
